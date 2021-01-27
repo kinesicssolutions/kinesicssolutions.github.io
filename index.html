@@ -1,0 +1,117 @@
+<html>
+<head>
+  <title>Home - Kinesics Solution</title>
+  <link rel="icon" href="immagini/iconk.png">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hub5emd.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body id="body">
+  <div class="menu_tel" id="menu_tel">
+    <img src="immagini/kin_logo.png" id="logo">
+    <img src="immagini/chiudi.png" class="chiudi" id="chiudi" onclick="chiudi()">
+    <span class="about" id="about"><a href="storia.html">ABOUT US</a></span>
+    <span id="product"><a href="prodotti.html">PRODUCT</a></span>
+    <span id="team"><a href="team.html">TEAM</a></span>
+  </div>
+  <div class="menu" id="menu">
+    <a href="home.html"><img src="immagini/kin_logo.png"></a>
+    <span class="team"><a href="team.html">TEAM</a></span>
+    <span><a href="prodotti.html">PRODUCT</a></span>
+    <span><a href="storia.html">ABOUT US</a></span>
+    <img src="immagini/menu.png" class="ham" id="ham" onclick="funzionemenu()">
+  </div>
+
+  <div class="main" id="main">
+
+    <div class="corpo">
+  <h1>apto</h1>
+  <h3>know your limits</h3>
+  <p>La nuova frontiera della comunicazione &#233; qui. <br>
+  A portata di mano.</p>
+  <a href="apto.html"<font style="color: #e53b1a">SCOPRI DI PI&Ugrave ></font></a>
+  </div>
+<div class="storia">
+  <img src="immagini/kappa.gif" class="nascondi">
+<div class="imgstoria">
+
+</div>
+
+<div class="textstoria">
+  <img src="immagini/kappa.gif">
+  <p>Kinesics Solutions nasce nel 2021 grazie a Linus Siemens, un imprenditore e studioso, che vuole riportare nella societ&#224; a distanza quell&#180;umanit&#224; che ormai si &#233; persa.</p>
+  <a href="storia.html"><font style="color: #e53b1a">ABOUT US ></font></a>
+</div>
+</div>
+<div class="cooming">
+  <img src="immagini/escla.gif">
+  <p>Kinesics solution si rinnova con nuovi prodotti, prossimamente disponibili. <br> Tenetevi informati per saperne di pi&#249;.</p>
+<a href="prodotti.html"><font style="color: #e53b1a">PRODUCT ></font></a>
+</div>
+
+</div>
+
+<div class="footer">
+      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
+      <hr>
+      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
+</div>
+
+<div class="footer_tel">
+      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
+      <hr>
+      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie
+      <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
+</div>
+
+
+<script type="text/javascript">
+/*var prevScrollpos = window.pageYOffset;
+const large = window.matchMedia('(min-width: 1281px)');
+const largemedium = window.matchMedia('(max-width: 1280px)');
+const min = window.matchMedia('(max-width: 480px)');
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+  document.getElementById("menu").style.top = "0";
+} else if (min.matches) {
+  document.getElementById("menu").style.top = "0vw";
+}else if (large.matches) {
+  document.getElementById("menu").style.top = "-4vw";
+} else if (largemedium.matches) {
+  document.getElementById("menu").style.top = "-5svw";
+}
+prevScrollpos = currentScrollPos;
+}*/
+
+function funzionemenu() {
+  document.getElementById("menu_tel").style.top = "0";
+  document.body.style.scroll = "none";
+  document.body.style.overflow = "hidden";
+  document.getElementById("main").style.scroll = "none";
+  document.getElementById("main").style.overflow = "hidden";
+  document.getElementById("menu").style.top = "-20vw";
+  document.getElementById("logo").style.opacity = "1";
+  document.getElementById("chiudi").style.opacity = "1";
+  document.getElementById("about").style.opacity = "1";
+  document.getElementById("product").style.opacity = "1";
+  document.getElementById("team").style.opacity = "1";
+}
+
+function chiudi() {
+  document.getElementById("menu_tel").style.top = "-100vh";
+  document.getElementById("menu").style.top = "0vw";
+  document.getElementById("logo").style.opacity = "0";
+  document.getElementById("chiudi").style.opacity = "0";
+  document.getElementById("about").style.opacity = "0";
+  document.getElementById("product").style.opacity = "0";
+  document.getElementById("team").style.opacity = "0";
+}
+
+
+</script>
+</body>
+<html>
