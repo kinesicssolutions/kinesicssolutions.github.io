@@ -1,0 +1,113 @@
+<html>
+<head>
+  <title>About Us - Kinesics Solution</title>
+  <link rel="icon" href="immagini/iconk.png">
+  <link rel="stylesheet" href="storia.css">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hub5emd.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body id="body">
+  <div class="menu_tel" id="menu_tel">
+    <img src="immagini/kin_logo.png" id="logo">
+    <img src="immagini/chiudi.png" class="chiudi" id="chiudi" onclick="chiudi()">
+    <span class="about" id="about"><a href="storia.html">ABOUT US</a></span>
+    <span id="product"><a href="prodotti.html">PRODUCT</a></span>
+    <span id="team"><a href="team.html">TEAM</a></span>
+  </div>
+  <div class="menu" id="menu">
+    <a href="home.html"><img src="immagini/kin_logo.png"></a>
+    <span class="team"><a href="team.html">TEAM</a></span>
+    <span><a href="prodotti.html">PRODUCT</a></span>
+    <span><a href="storia.html">ABOUT US</a></span>
+    <img src="immagini/menu.png" class="ham" id="ham" onclick="funzionemenu()">
+  </div>
+
+  <div class="main" id="main">
+<div class="open">
+  <img src="immagini/logotipo.gif" alt="">
+  <p>La cinesica &#233; lo studio della comunicazione non verbale e di quella
+che si attua attraverso i gesti e i movimenti, le posizioni, la mimica del corpo,
+in modo volontario o involontario. </p>
+</div>
+<div class="siemens">
+<img src="immagini/siemens.jpg" alt="">
+<p>
+Kinesics Solutions nasce nel 2021 grazie a Linus Siemens, un imprenditore e studioso, che vuole riportare nella societ&#224; a distanza quell&#180;umanità che ormai si &#233; persa.
+<br>
+Questo nuovo modo di interagire
+pu&#242; essere sfruttato per rendere
+la societ&#224; pi&#249; efficiente, attraverso l&#180;utilizzo dei dati cinesici di ogni
+cittadino.</p>
+</div>
+<div class="centrale">
+  <div class="vision">
+    <img src="immagini/x.gif" alt="">
+    <p class="titolo">Vision</p>
+    <p>
+    Un mondo in cui non solo la distanza
+non &#233; un limite per l&#180;interazione ma in cui
+&#233; un mezzo per raffinarla e cos&#236; usarla
+per migliorare la societ&#224;.</p>
+  </div>
+  <div class="mission">
+    <img src="immagini/mani.gif" alt="">
+    <p class="titolo">Mission</p>
+    <p>
+    Creazione di una societ&#224; pi&#249; efficiente grazie al recupero ed alla rielaborazione
+<nobr>dell&#180;interazione</nobr> fisica attraverso l&#180;innovazione tecnologica.</p>
+  </div>
+  <div class="finale">
+    <img src="immagini/lab.png" alt="">
+  </div>
+</div>
+
+
+</div>
+
+<div class="footer">
+      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
+      <hr>
+      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
+</div>
+
+<div class="footer_tel">
+      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
+      <hr>
+      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie
+      <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
+</div>
+
+
+<script type="text/javascript">
+
+function funzionemenu() {
+  document.getElementById("menu_tel").style.top = "0";
+  document.body.style.scroll = "none";
+  document.body.style.overflow = "hidden";
+  document.getElementById("main").style.scroll = "none";
+  document.getElementById("main").style.overflow = "hidden";
+  document.getElementById("menu").style.top = "-20vw";
+  document.getElementById("logo").style.opacity = "1";
+  document.getElementById("chiudi").style.opacity = "1";
+  document.getElementById("about").style.opacity = "1";
+  document.getElementById("product").style.opacity = "1";
+  document.getElementById("team").style.opacity = "1";
+}
+
+function chiudi() {
+  document.getElementById("menu_tel").style.top = "-100vh";
+  document.getElementById("menu").style.top = "0vw";
+  document.getElementById("logo").style.opacity = "0";
+  document.getElementById("chiudi").style.opacity = "0";
+  document.getElementById("about").style.opacity = "0";
+  document.getElementById("product").style.opacity = "0";
+  document.getElementById("team").style.opacity = "0";
+}
+
+
+</script>
+</body>
+<html>

@@ -1,0 +1,766 @@
+@media (min-width: 1281px) {
+
+  h1 {
+    font-size: 100px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 12vw;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_1920.png);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 11vw;
+  }
+
+  .corpo a:link, a:visited {
+    float: left;
+    display: block;
+    margin-left: 8vw;
+    margin-bottom: 15vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    height: 10vw;
+    margin-bottom: 1vw;
+  }
+
+  .nascondi {
+    display: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 38vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 10vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 8vw;
+  }
+
+  .cooming a:link, a:visited {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  h1 {
+    font-size: 100px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 21vw;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_1920.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 11vw;
+  }
+
+  .corpo a:link, a:visited {
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    height: 10vw;
+    margin-bottom: 1vw;
+  }
+
+  .nascondi {
+    display: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 38vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 10vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 8vw;
+  }
+
+  .cooming a:link, a:visited {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation : portrait) {
+
+  h1 {
+    font-size: 100px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 60vw;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_1920.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 11vw;
+  }
+
+  .corpo a:link, a:visited {
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    width: 38vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  .nascondi {
+    display: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 38vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 15vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 8vw;
+  }
+
+  .cooming a:link, a:visited {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  h1 {
+    font-size: 100px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 24vw;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_1920.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 5vw;
+  }
+
+  .corpo a {
+    text-decoration: none;
+    margin-left: 8vw;
+    margin-bottom: 30vw
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .textstoria  a:link, a:visited {
+    text-decoration: none;
+    margin-left: 8vw;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  .nascondi {
+    display: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 38vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 15vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 8vw;
+  }
+
+  .cooming a:link, a:visited {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  body {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 90vw;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-top: 9vw;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_tel.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 5vw;
+  }
+
+  .corpo a:link, a:visited {
+    text-decoration: none;
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    width: 84vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    display: none;
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+.nascondi {
+  position: relative;
+  float: left;
+  margin-left: 8vw;
+  display: block;
+  height: 15vw;
+}
+
+  .textstoria a {
+    text-decoration: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+    margin-bottom: 12vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 84vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 15vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 20vw;
+  }
+
+  .cooming a:link, a:visited {
+    text-decoration: none;
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 90vw;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-top: 9vw;
+    margin-left: 8vw;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_tel.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 5vw;
+  }
+
+  .corpo a:link, a:visited {
+    text-decoration: none;
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    width: 100vw;
+    align-items: flex-end;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 38vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    width: 84vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+  }
+
+  .textstoria img {
+    display: none;
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+.nascondi {
+  position: relative;
+  float: left;
+  margin-left: 8vw;
+  display: block;
+  height: 15vw;
+}
+
+  .textstoria a {
+    text-decoration: none;
+  }
+
+  .cooming {
+    position: relative;
+    float: left;
+    width: 100vw;
+    margin-bottom: 12vw;
+  }
+
+  .cooming p {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    width: 84vw;
+    line-height: 25px;
+    clear: both;
+  }
+
+  .cooming img {
+    position: relative;
+    float: left;
+    height: 15vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw;
+    margin-top: 20vw;
+  }
+
+  .cooming a:link, a:visited {
+    text-decoration: none;
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    clear: both;
+  }
+
+}
