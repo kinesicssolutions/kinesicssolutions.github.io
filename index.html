@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Home - Kinesics Solution</title>
+  <title>Home - Kinesics Solutions</title>
   <link rel="icon" href="immagini/iconk.png">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="master.css">
@@ -40,14 +40,22 @@
 
 <div class="textstoria">
   <img src="immagini/kappa.gif">
+  <h4>About us</h4>
   <p>Kinesics Solutions nasce nel 2021 grazie a Linus Siemens, un imprenditore e studioso, che vuole riportare nella societ&#224; a distanza quell&#180;umanit&#224; che ormai si &#233; persa.</p>
   <a href="storia.html"><font style="color: #e53b1a">ABOUT US ></font></a>
 </div>
 </div>
-<div class="cooming">
-  <img src="immagini/escla.gif">
-  <p>Kinesics solution si rinnova con nuovi prodotti, prossimamente disponibili. <br> Tenetevi informati per saperne di pi&#249;.</p>
-<a href="prodotti.html"><font style="color: #e53b1a">PRODUCT ></font></a>
+<div class="coming">
+  <div class="textcoming">
+    <img src="immagini/escla.gif">
+    <h4>Coming soon</h4>
+    <p>Kinesics solutions si rinnova con nuovi prodotti, prossimamente disponibili. <br> Tenetevi informati per saperne di pi&#249;.</p>
+  <a href="prodotti.html"><font style="color: #e53b1a">PRODUCT ></font></a>
+
+  </div>
+  <div class="imgcoming">
+
+  </div>
 </div>
 
 </div>
@@ -55,14 +63,14 @@
 <div class="footer">
       Altri modi per acquistare: chiama il numero 0184 56 789 <br>
       <hr>
-      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Copyright &#174; 2020. Kinesics Solutions. Tutti i diritti riservati. <br>
       Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
 </div>
 
 <div class="footer_tel">
       Altri modi per acquistare: chiama il numero 0184 56 789 <br>
       <hr>
-      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+      Copyright &#174; 2020. Kinesics Solutions. Tutti i diritti riservati. <br>
       Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie
       <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="effetti.html">Note Legali</a>
 </div>
@@ -99,6 +107,7 @@ function funzionemenu() {
   document.getElementById("about").style.opacity = "1";
   document.getElementById("product").style.opacity = "1";
   document.getElementById("team").style.opacity = "1";
+    document.body.style.touchAction = 'pinch-zoom'
 }
 
 function chiudi() {
@@ -109,6 +118,8 @@ function chiudi() {
   document.getElementById("about").style.opacity = "0";
   document.getElementById("product").style.opacity = "0";
   document.getElementById("team").style.opacity = "0";
+    document.body.style.touchAction = 'auto'
+
 }
 
 

@@ -7,7 +7,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 12vw;
+    margin-top: 45vh;
   }
 
   h3 {
@@ -19,20 +19,29 @@
     margin-left: 8vw;
   }
 
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
   .corpo {
     position: relative;
     float: left;
     background-image: url(immagini/open_1920.png);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
+    height: 100vh;
   }
 
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 11vw;
+    margin-top: 5vh;
   }
 
   .corpo a:link, a:visited {
@@ -47,6 +56,17 @@
     float: left;
     display: flex;
     width: 100vw;
+    height: auto;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+
+  .coming {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    height: auto;
     align-items: flex-end;
   }
 
@@ -55,19 +75,35 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
-    margin-top: 8vw;
+    height: 30vw;
+    margin-top: 4vw;
     margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 30vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
 
   .textstoria {
     position: relative;
     float: left;
     margin-left: 8vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
     width: 38vw;
   }
 
@@ -84,34 +120,30 @@
     display: none;
   }
 
-  .cooming {
-    position: relative;
-    float: left;
-    width: 100vw;
-  }
-
-  .cooming p {
+  .textcoming {
     position: relative;
     float: left;
     margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textcoming p {
+    position: relative;
+    float: left;
     width: 38vw;
     line-height: 25px;
     clear: both;
   }
 
-  .cooming img {
-    position: relative;
-    float: left;
+  .textcoming img {
     height: 10vw;
-    margin-left: 8vw;
     margin-bottom: 1vw;
-    margin-top: 8vw;
   }
 
-  .cooming a:link, a:visited {
+  .textcoming a:link, a:visited {
     position: relative;
     float: left;
-    margin-left: 8vw;
     clear: both;
   }
 
@@ -131,7 +163,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 21vw;
+    margin-top: 45vh;
   }
 
   h3 {
@@ -143,6 +175,14 @@
     margin-left: 8vw;
   }
 
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
   .corpo {
     position: relative;
     float: left;
@@ -151,12 +191,13 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
+    height: 100vh;
   }
 
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 11vw;
+    margin-top: 5vh;
   }
 
   .corpo a:link, a:visited {
@@ -168,6 +209,17 @@
     float: left;
     display: flex;
     width: 100vw;
+    height: auto;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+
+  .coming {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    height: auto;
     align-items: flex-end;
   }
 
@@ -176,19 +228,35 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
-    margin-top: 8vw;
+    height: 30vw;
+    margin-top: 4vw;
     margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 30vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
 
   .textstoria {
     position: relative;
     float: left;
     margin-left: 8vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
     width: 38vw;
   }
 
@@ -205,34 +273,30 @@
     display: none;
   }
 
-  .cooming {
-    position: relative;
-    float: left;
-    width: 100vw;
-  }
-
-  .cooming p {
+  .textcoming {
     position: relative;
     float: left;
     margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textcoming p {
+    position: relative;
+    float: left;
     width: 38vw;
     line-height: 25px;
     clear: both;
   }
 
-  .cooming img {
-    position: relative;
-    float: left;
+  .textcoming img {
     height: 10vw;
-    margin-left: 8vw;
     margin-bottom: 1vw;
-    margin-top: 8vw;
   }
 
-  .cooming a:link, a:visited {
+  .textcoming a:link, a:visited {
     position: relative;
     float: left;
-    margin-left: 8vw;
     clear: both;
   }
 
@@ -253,7 +317,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 60vw;
+    margin-top: 45vh;
   }
 
   h3 {
@@ -265,6 +329,14 @@
     margin-left: 8vw;
   }
 
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
   .corpo {
     position: relative;
     float: left;
@@ -273,12 +345,13 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
+    height: 100vh;
   }
 
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 11vw;
+    margin-top: 5vw;
   }
 
   .corpo a:link, a:visited {
@@ -290,6 +363,17 @@
     float: left;
     display: flex;
     width: 100vw;
+    height: auto;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+
+  .coming {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    height: auto;
     align-items: flex-end;
   }
 
@@ -299,19 +383,34 @@
     background-color: white;
     width: 38vw;
     height: 38vw;
-    margin-top: 8vw;
+    margin-top: 2vw;
     margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
   }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
 
   .textstoria {
     position: relative;
     float: left;
     margin-left: 8vw;
-    margin-top: 5vw;
+    margin-top: 10vw;
     width: 38vw;
   }
 
@@ -320,7 +419,7 @@
   }
 
   .textstoria img {
-    height: 15vw;
+    height: 8vw;
     margin-bottom: 1vw;
   }
 
@@ -328,34 +427,30 @@
     display: none;
   }
 
-  .cooming {
-    position: relative;
-    float: left;
-    width: 100vw;
-  }
-
-  .cooming p {
+  .textcoming {
     position: relative;
     float: left;
     margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textcoming p {
+    position: relative;
+    float: left;
     width: 38vw;
     line-height: 25px;
     clear: both;
   }
 
-  .cooming img {
-    position: relative;
-    float: left;
-    height: 15vw;
-    margin-left: 8vw;
+  .textcoming img {
+    height: 8vw;
     margin-bottom: 1vw;
-    margin-top: 8vw;
   }
 
-  .cooming a:link, a:visited {
+  .textcoming a:link, a:visited {
     position: relative;
     float: left;
-    margin-left: 8vw;
     clear: both;
   }
 
@@ -376,7 +471,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 24vw;
+    margin-top: 45vh;
   }
 
   h3 {
@@ -388,6 +483,14 @@
     margin-left: 8vw;
   }
 
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
   .corpo {
     position: relative;
     float: left;
@@ -396,12 +499,13 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
+    height: 100vh;
   }
 
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 5vw;
+    margin-top: 5vh;
   }
 
   .corpo a {
@@ -415,12 +519,18 @@
     float: left;
     display: flex;
     width: 100vw;
+    height: auto;
     align-items: flex-end;
+    background-color: transparent;
   }
 
-  .textstoria  a:link, a:visited {
-    text-decoration: none;
-    margin-left: 8vw;
+  .coming {
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    align-items: flex-end;
   }
 
   .imgstoria {
@@ -428,19 +538,35 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
+    height: 30vw;
     margin-top: 8vw;
     margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 30vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
 
   .textstoria {
     position: relative;
     float: left;
     margin-left: 8vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
     width: 38vw;
   }
 
@@ -449,7 +575,7 @@
   }
 
   .textstoria img {
-    height: 15vw;
+    height: 6vw;
     margin-bottom: 1vw;
   }
 
@@ -457,34 +583,30 @@
     display: none;
   }
 
-  .cooming {
-    position: relative;
-    float: left;
-    width: 100vw;
-  }
-
-  .cooming p {
+  .textcoming {
     position: relative;
     float: left;
     margin-left: 8vw;
+    margin-top: 15vw;
+    width: 38vw;
+  }
+
+  .textcoming p {
+    position: relative;
+    float: left;
     width: 38vw;
     line-height: 25px;
     clear: both;
   }
 
-  .cooming img {
-    position: relative;
-    float: left;
-    height: 15vw;
-    margin-left: 8vw;
+  .textcoming img {
+    height: 6vw;
     margin-bottom: 1vw;
-    margin-top: 8vw;
   }
 
-  .cooming a:link, a:visited {
+  .textcoming a:link, a:visited {
     position: relative;
     float: left;
-    margin-left: 8vw;
     clear: both;
   }
 
@@ -509,7 +631,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 90vw;
+    margin-top: 40vh;
   }
 
   h3 {
@@ -520,6 +642,14 @@
     margin: 0;
     margin-top: 9vw;
     margin-left: 8vw;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
   }
 
   .corpo {
@@ -536,7 +666,7 @@
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 5vw;
+    margin-top: 5vh;
   }
 
   .corpo a:link, a:visited {
@@ -593,14 +723,14 @@
     text-decoration: none;
   }
 
-  .cooming {
+  .coming {
     position: relative;
     float: left;
     width: 100vw;
     margin-bottom: 12vw;
   }
 
-  .cooming p {
+  .coming p {
     position: relative;
     float: left;
     margin-left: 8vw;
@@ -609,7 +739,7 @@
     clear: both;
   }
 
-  .cooming img {
+  .coming img {
     position: relative;
     float: left;
     height: 15vw;
@@ -618,7 +748,7 @@
     margin-top: 20vw;
   }
 
-  .cooming a:link, a:visited {
+  .coming a:link, a:visited {
     text-decoration: none;
     position: relative;
     float: left;
@@ -646,7 +776,7 @@
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 90vw;
+    margin-top: 50vh;
   }
 
   h3 {
@@ -657,6 +787,14 @@
     margin: 0;
     margin-top: 9vw;
     margin-left: 8vw;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
   }
 
   .corpo {
@@ -673,7 +811,7 @@
   .corpo p {
     line-height: 25px;
     margin-left: 8vw;
-    margin-top: 5vw;
+    margin-top: 5vh;
   }
 
   .corpo a:link, a:visited {
@@ -730,14 +868,14 @@
     text-decoration: none;
   }
 
-  .cooming {
+  .coming {
     position: relative;
     float: left;
     width: 100vw;
     margin-bottom: 12vw;
   }
 
-  .cooming p {
+  .coming p {
     position: relative;
     float: left;
     margin-left: 8vw;
@@ -746,7 +884,7 @@
     clear: both;
   }
 
-  .cooming img {
+  .coming img {
     position: relative;
     float: left;
     height: 15vw;
@@ -755,7 +893,7 @@
     margin-top: 20vw;
   }
 
-  .cooming a:link, a:visited {
+  .coming a:link, a:visited {
     text-decoration: none;
     position: relative;
     float: left;
