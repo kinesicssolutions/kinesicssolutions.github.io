@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="master.css">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="https://use.typekit.net/hub5emd.css">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 <body>
   <div class="menu_tel" id="menu_tel">
@@ -124,6 +124,10 @@ $(window).resize(function(){
   $('#team').css('opacity', '0');
   $('body').css('overflow', 'scroll');
   $('body').css('touch-action', 'auto');
+});
+
+$( window ).on( "orientationchange", function() {
+  window.width=device.width;
 });
 
 
