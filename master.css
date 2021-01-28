@@ -152,7 +152,7 @@ a:hover, a:active {
     float: left;
     width: 84vw;
     margin-left: 8vw;
-    margin-top: 2vw;
+    margin-top: 8vw;
     padding-bottom: 5vw;
   }
 
@@ -367,7 +367,7 @@ a:hover, a:active {
 
   .footer, .footer_tel {
     position: relative;
-    float:left; 
+    float:left;
     width: 84vw;
     margin-left: 8vw;
     margin-top: 8vw;
