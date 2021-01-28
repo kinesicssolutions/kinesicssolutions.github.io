@@ -391,6 +391,7 @@ a:hover, a:active {
     font-style: normal;
     text-align: left;
     color: #212529;
+    -webkit-text-size-adjust: none;
   }
 
   .footer, .footer_tel a:link, a:visited {
@@ -503,6 +504,7 @@ a:hover, a:active {
     font-weight: 300;
     font-style: normal;
     line-height: 15px;
+    -webkit-text-size-adjust: none;
   }
 
   .footer, .footer_tel a:link, a:visited {
@@ -667,6 +669,7 @@ a:hover, a:active {
   font-weight: 300;
   font-style: normal;
   line-height: 15px;
+  -webkit-text-size-adjust: none;
 }
 
 .footer, .footer_tel a:link, a:visited {
@@ -832,6 +835,7 @@ a:hover, a:active {
   font-weight: 300;
   font-style: normal;
   line-height: 15px;
+  -webkit-text-size-adjust: none;
 }
 
 .footer, .footer_tel a:link, a:visited {
