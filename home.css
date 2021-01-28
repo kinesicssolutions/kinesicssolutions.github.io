@@ -625,22 +625,21 @@
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 100px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 40vh;
+    margin-top: 45vh;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 40px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-top: 9vw;
     margin-left: 8vw;
   }
 
@@ -655,7 +654,7 @@
   .corpo {
     position: relative;
     float: left;
-    background-image: url(immagini/open_tel.png);
+    background-image: url(immagini/open_tablet.png);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -711,13 +710,13 @@
     height: 15vw;
     margin-bottom: 1vw;
   }
-.nascondi {
+  .nascondi {
   position: relative;
   float: left;
   margin-left: 8vw;
   display: block;
   height: 15vw;
-}
+  }
 
   .textstoria a {
     text-decoration: none;
@@ -756,6 +755,7 @@
     clear: both;
   }
 }
+
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -770,23 +770,23 @@
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 90px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
     margin-left: 8vw;
-    margin-top: 50vh;
+    margin-top: 69vh;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 35px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-top: 9vw;
     margin-left: 8vw;
+    margin-top: 7vh;
   }
 
   h4 {
@@ -823,7 +823,13 @@
     position: relative;
     float: left;
     width: 100vw;
-    align-items: flex-end;
+    margin-top: 8vw;
+  }
+
+  .coming {
+    position: relative;
+    float: left;
+    width: 100vw;
   }
 
   .imgstoria {
@@ -831,12 +837,43 @@
     float: left;
     background-color: white;
     width: 84vw;
-    height: 38vw;
+    height: 50vw;
     margin-top: 8vw;
     margin-left: 8vw;
     background-image: url(immagini/screen.png);
+    background-position: top;
+    background-size: cover;
+  }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    display: none;
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
   }
 
   .textstoria {
@@ -856,6 +893,7 @@
     height: 15vw;
     margin-bottom: 1vw;
   }
+
 .nascondi {
   position: relative;
   float: left;
@@ -868,36 +906,195 @@
     text-decoration: none;
   }
 
+  .textcoming {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    width: 84vw;
+  }
+
+  .textcoming p {
+    line-height: 25px;
+  }
+
+  .textcoming img {
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  .textcoming a:link, a:visited {
+    position: relative;
+    float: left;
+    clear: both;
+  }
+
+}
+
+@media (min-width: 250px) and (max-width: 320px) {
+
+  body {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 69vh;
+  }
+
+  h3 {
+    font-size: 35px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 7vh;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_tel.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 5vh;
+  }
+
+  .corpo a:link, a:visited {
+    text-decoration: none;
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    width: 100vw;
+    margin-top: 8vw;
+  }
+
   .coming {
     position: relative;
     float: left;
     width: 100vw;
-    margin-bottom: 12vw;
   }
 
-  .coming p {
+  .imgstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
+    background-color: white;
     width: 84vw;
+    height: 50vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: top;
+    background-size: cover;
+  }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    display: none;
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    width: 84vw;
+  }
+
+  .textstoria p {
     line-height: 25px;
-    clear: both;
   }
 
-  .coming img {
-    position: relative;
-    float: left;
+  .textstoria img {
+    display: none;
     height: 15vw;
-    margin-left: 8vw;
     margin-bottom: 1vw;
-    margin-top: 20vw;
   }
 
-  .coming a:link, a:visited {
+.nascondi {
+  position: relative;
+  float: left;
+  margin-left: 8vw;
+  display: block;
+  height: 15vw;
+}
+
+  .textstoria a {
     text-decoration: none;
+  }
+
+  .textcoming {
     position: relative;
     float: left;
     margin-left: 8vw;
+    margin-top: 15vw;
+    width: 84vw;
+  }
+
+  .textcoming p {
+    line-height: 25px;
+  }
+
+  .textcoming img {
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  .textcoming a:link, a:visited {
+    position: relative;
+    float: left;
     clear: both;
   }
 
