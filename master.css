@@ -260,7 +260,7 @@ a:hover, a:active {
 */
 .footer, .footer_tel {
   position: relative;
-  bottom:0;
+float:left; 
   width: 84vw;
   margin-left: 8vw;
   margin-top: 8vw;
