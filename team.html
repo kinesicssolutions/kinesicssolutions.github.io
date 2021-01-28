@@ -2,15 +2,15 @@
 <head>
   <title>Team - Kinesics Solution</title>
   <link rel="icon" href="immagini/iconk.png">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="team.css">
   <link rel="stylesheet" href="master.css">
   <link rel="stylesheet" href="https://use.typekit.net/hub5emd.css">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-<body id="body">
+<body>
   <div class="menu_tel" id="menu_tel">
-    <img src="immagini/kin_logo.png" id="logo">
-    <img src="immagini/chiudi.png" class="chiudi" id="chiudi" onclick="chiudi()">
+    <a href="index.html"><img src="immagini/kin_logo.png" id="logo"></a>
+    <img src="immagini/chiudi.png" class="chiudi" id="chiudi">
     <span class="about" id="about"><a href="storia.html">ABOUT US</a></span>
     <span id="product"><a href="prodotti.html">PRODUCT</a></span>
     <span id="team"><a href="team.html">TEAM</a></span>
@@ -20,56 +20,101 @@
     <span class="team"><a href="team.html">TEAM</a></span>
     <span><a href="prodotti.html">PRODUCT</a></span>
     <span><a href="storia.html">ABOUT US</a></span>
-    <img src="immagini/menu.png" class="ham" id="ham" onclick="funzionemenu()">
+    <img src="immagini/menu.png" class="ham" id="ham">
   </div>
 
   <div class="main" id="main">
-
-
+<div class="persona">
+  <img src="" alt="">
+  <h5>Matteo La Corte</h5>
+  <p>Senior President Machine Learning and AI Strategy</p>
+</div>
+<div class="persona">
+  <img src="" alt="">
+  <h5>Sara Lombardi</h5>
+  <p>CEO - Chief Executive Officer</p>
+</div>
+<div class="persona">
+  <img src="" alt="">
+  <h5>Maria Medaglia</h5>
+  <p>Main Sponsor</p>
+</div>
+<div class="persona">
+  <img src="" alt="">
+  <h5>Andrea Occhetta</h5>
+  <p>Creative Director</p>
+</div>
+<div class="persona">
+  <img src="" alt="">
+  <h5>Michele Porcari</h5>
+  <p>CTO - Chief Technology Officer</p>
+</div>
 
 </div>
 
-<div class="footer">
-      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
-      <hr>
-      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
-      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="note.html">Note Legali</a>
+<div class="footer" style="font-size: 11px;">
+      <p>Altri modi per acquistare: chiama il numero 0184 56 789 </p>
+      <hr></hr>
+      <p>Copyright &#174; 2020. Kinesics Solutions. Tutti i diritti riservati. <br>
+      Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="note.html">Note Legali</a></p>
 </div>
 
-<div class="footer_tel">
-      Altri modi per acquistare: chiama il numero 0184 56 789 <br>
-      <hr>
-      Copyright &#174; 2020. Kinesics Solution. Tutti i diritti riservati. <br>
+<div class="footer_tel" style="font-size: 11px;">
+      <p>Altri modi per acquistare: chiama il numero 0184 56 789 </p>
+      <hr></hr>
+      <p>Copyright &#174; 2020. Kinesics Solutions. Tutti i diritti riservati. <br>
       Norme sulla Privacy&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Utilizzo dei cookie
-      <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="note.html">Note Legali</a>
+      <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="note.html">Note Legali</a></p>
 </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 
 
 <script type="text/javascript">
 
+
 function funzionemenu() {
-  document.getElementById("menu_tel").style.top = "0";
-  document.body.style.scroll = "none";
-  document.body.style.overflow = "hidden";
-  document.getElementById("main").style.scroll = "none";
-  document.getElementById("main").style.overflow = "hidden";
-  document.getElementById("menu").style.top = "-20vw";
-  document.getElementById("logo").style.opacity = "1";
-  document.getElementById("chiudi").style.opacity = "1";
-  document.getElementById("about").style.opacity = "1";
-  document.getElementById("product").style.opacity = "1";
-  document.getElementById("team").style.opacity = "1";
+  $('body').css('overflow', 'hidden');
+  $('body').css('touch-action', 'pinch-zoom');
+  $('#menu_tel').css('top', '0');
+  $('#menu').css('top', '-20vw');
+  $('#logo').css('opacity', '1');
+  $('#chiudi').css('opacity', '1');
+  $('#about').css('opacity', '1');
+  $('#product').css('opacity', '1');
+  $('#team').css('opacity', '1');
 }
 
 function chiudi() {
-  document.getElementById("menu_tel").style.top = "-100vh";
-  document.getElementById("menu").style.top = "0vw";
-  document.getElementById("logo").style.opacity = "0";
-  document.getElementById("chiudi").style.opacity = "0";
-  document.getElementById("about").style.opacity = "0";
-  document.getElementById("product").style.opacity = "0";
-  document.getElementById("team").style.opacity = "0";
+  $('#menu_tel').css('top', '-100vh');
+  $('#menu').css('top', '0vw');
+  $('#logo').css('opacity', '0');
+  $('#chiudi').css('opacity', '0');
+  $('#about').css('opacity', '0');
+  $('#product').css('opacity', '0');
+  $('#team').css('opacity', '0');
+  $('body').css('overflow', 'scroll');
+  $('body').css('touch-action', 'auto');
 }
+
+$('#ham').on('click', funzionemenu);
+$('#chiudi').on('click', chiudi);
+
+$(window).resize(function(){
+  $('#menu_tel').css('top', '-100vh');
+  $('#menu').css('top', '0vw');
+  $('#logo').css('opacity', '0');
+  $('#chiudi').css('opacity', '0');
+  $('#about').css('opacity', '0');
+  $('#product').css('opacity', '0');
+  $('#team').css('opacity', '0');
+  $('body').css('overflow', 'scroll');
+  $('body').css('touch-action', 'auto');
+});
+
 
 
 </script>
