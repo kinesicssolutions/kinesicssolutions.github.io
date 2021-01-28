@@ -151,15 +151,9 @@ a:hover, a:active {
     position: relative;
     float: left;
     width: 84vw;
-    text-align: left;
-    color: #212529;
     margin-left: 8vw;
     margin-top: 8vw;
     padding-bottom: 5vw;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 15px;
-    font-style: normal;
   }
 
   .footer {
@@ -168,6 +162,15 @@ a:hover, a:active {
 
   .footer_tel {
     display: none;
+  }
+
+  .footer p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 15px;
+    font-style: normal;
+    text-align: left;
+    color: #212529;
   }
 
   .footer, .footer_tel a:link, a:visited {
@@ -259,19 +262,22 @@ a:hover, a:active {
   position: relative;
   float: left;
   width: 84vw;
-  text-align: left;
-  color: #212529;
   margin-left: 8vw;
   margin-top: 8vw;
   padding-bottom: 5vw;
-  font-size: 11px;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 15px;
 }
 
 .footer {
   display: block;
+}
+
+.footer p {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 15px;
+  font-style: normal;
+  text-align: left;
+  color: #212529;
 }
 
 .footer_tel {
@@ -363,15 +369,10 @@ a:hover, a:active {
     position: relative;
     float: left;
     width: 84vw;
-    text-align: left;
-    color: #212529;
     margin-left: 8vw;
     margin-top: 8vw;
     padding-bottom: 5vw;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 15px;
-    font-style: normal;
+
   }
 
   .footer {
@@ -380,6 +381,15 @@ a:hover, a:active {
 
   .footer_tel {
     display: none;
+  }
+
+  .footer p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 15px;
+    font-style: normal;
+    text-align: left;
+    color: #212529;
   }
 
   .footer, .footer_tel a:link, a:visited {
@@ -392,7 +402,6 @@ a:hover, a:active {
     opacity: 0.7;
     color: #212529;
   }
-
 
 }
 
@@ -464,30 +473,18 @@ a:hover, a:active {
     position: relative;
     float: left;
     width: 84vw;
-    text-align: left;
-    color: #212529;
     margin-left: 8vw;
     margin-top: 8vw;
     padding-bottom: 5vw;
-    font-size: 11px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 15px;
   }
 
  .footer_tel {
     position: relative;
     float: left;
     width: 84vw;
-    text-align: left;
-    color: #212529;
     margin-left: 8vw;
     margin-top: 8vw;
     padding-bottom: 5vw;
-    font-size: 11px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 15px;
   }
 
   .footer {
@@ -496,6 +493,15 @@ a:hover, a:active {
 
   .footer_tel {
     display: none;
+  }
+
+  .footer p {
+    text-align: left;
+    color: #212529;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 15px;
   }
 
   .footer, .footer_tel a:link, a:visited {
@@ -508,6 +514,7 @@ a:hover, a:active {
     opacity: 0.7;
     color: #212529;
   }
+
 }
 
 /*
@@ -639,15 +646,9 @@ a:hover, a:active {
   position: relative;
   float: left;
   width: 84vw;
-  text-align: left;
-  color: #212529;
   margin-left: 8vw;
   margin-top: 8vw;
   padding-bottom: 5vw;
-  font-size: 11px;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 15px;
 }
 
 .footer {
@@ -656,6 +657,15 @@ a:hover, a:active {
 
 .footer_tel {
   display: none;
+}
+
+.footer p {
+  text-align: left;
+  color: #212529;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 15px;
 }
 
 .footer, .footer_tel a:link, a:visited {
@@ -669,23 +679,6 @@ a:hover, a:active {
   color: #212529;
 }
 
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 }
 
 /*
@@ -818,19 +811,26 @@ a:hover, a:active {
   position: relative;
   float: left;
   width: 84vw;
-  text-align: left;
-  color: #212529;
   margin-left: 8vw;
   margin-top: 8vw;
   padding-bottom: 5vw;
-  font-size: 11px;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 15px;
 }
 
 .footer {
   display: none;
+}
+
+.footer_tel {
+  display: block;
+}
+
+.footer_tel p {
+  text-align: left;
+  color: #212529;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 15px;
 }
 
 .footer, .footer_tel a:link, a:visited {
@@ -842,24 +842,6 @@ a:hover, a:active {
 .footer, .footer_tel a:hover, a:active {
   opacity: 0.7;
   color: #212529;
-}
-
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 }
