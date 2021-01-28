@@ -522,6 +522,7 @@
     height: auto;
     align-items: flex-end;
     background-color: transparent;
+    margin-top: 8vw; 
   }
 
   .coming {
@@ -619,11 +620,6 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  body {
-    font-size: 15px;
-    line-height: 18px;
-  }
-
   h1 {
     font-size: 100px;
     font-family: rubrik-new;
@@ -655,152 +651,6 @@
     position: relative;
     float: left;
     background-image: url(immagini/open_tablet.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .corpo p {
-    line-height: 25px;
-    margin-left: 8vw;
-    margin-top: 5vh;
-  }
-
-  .corpo a:link, a:visited {
-    text-decoration: none;
-    margin-left: 8vw;
-  }
-
-  .storia {
-    position: relative;
-    float: left;
-    width: 100vw;
-    align-items: flex-end;
-  }
-
-  .imgstoria {
-    position: relative;
-    float: left;
-    background-color: white;
-    width: 84vw;
-    height: 38vw;
-    margin-top: 8vw;
-    margin-left: 8vw;
-    background-image: url(immagini/screen.png);
-    background-position: center;
-    background-size: contain;
-  }
-
-  .textstoria {
-    position: relative;
-    float: left;
-    margin-left: 8vw;
-    margin-top: 5vw;
-    width: 84vw;
-  }
-
-  .textstoria p {
-    line-height: 25px;
-  }
-
-  .textstoria img {
-    display: none;
-    height: 15vw;
-    margin-bottom: 1vw;
-  }
-  .nascondi {
-  position: relative;
-  float: left;
-  margin-left: 8vw;
-  display: block;
-  height: 15vw;
-  }
-
-  .textstoria a {
-    text-decoration: none;
-  }
-
-  .coming {
-    position: relative;
-    float: left;
-    width: 100vw;
-    margin-bottom: 12vw;
-  }
-
-  .coming p {
-    position: relative;
-    float: left;
-    margin-left: 8vw;
-    width: 84vw;
-    line-height: 25px;
-    clear: both;
-  }
-
-  .coming img {
-    position: relative;
-    float: left;
-    height: 15vw;
-    margin-left: 8vw;
-    margin-bottom: 1vw;
-    margin-top: 20vw;
-  }
-
-  .coming a:link, a:visited {
-    text-decoration: none;
-    position: relative;
-    float: left;
-    margin-left: 8vw;
-    clear: both;
-  }
-}
-
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  body {
-    font-size: 15px;
-    line-height: 18px;
-  }
-
-  h1 {
-    font-size: 90px;
-    font-family: rubrik-new;
-    font-weight: 500;
-    color: #e53b1a;
-    margin: 0;
-    margin-left: 8vw;
-    margin-top: 69vh;
-  }
-
-  h3 {
-    font-size: 35px;
-    font-family: rubrik-new;
-    font-weight: 500;
-    color: #212529;
-    margin: 0;
-    margin-left: 8vw;
-    margin-top: 7vh;
-  }
-
-  h4 {
-    font-size: 30px;
-    font-family: rubrik-new;
-    font-weight: 400;
-    color: #212529;
-    margin: 20px 0 30px 0;
-  }
-
-  .corpo {
-    position: relative;
-    float: left;
-    background-image: url(immagini/open_tel.png);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -886,6 +736,7 @@
 
   .textstoria p {
     line-height: 25px;
+    font-size: 15px;
   }
 
   .textstoria img {
@@ -916,6 +767,178 @@
 
   .textcoming p {
     line-height: 25px;
+    font-size: 15px;
+  }
+
+  .textcoming img {
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  .textcoming a:link, a:visited {
+    position: relative;
+    float: left;
+    clear: both;
+  }
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  h1 {
+    font-size: 90px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 0;
+    margin-left: 8vw;
+    margin-top: 45vh;
+  }
+
+  h3 {
+    font-size: 35px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #212529;
+    margin: 0;
+    margin-left: 8vw;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 20px 0 30px 0;
+  }
+
+  .corpo {
+    position: relative;
+    float: left;
+    background-image: url(immagini/open_tel.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .corpo p {
+    line-height: 25px;
+    margin-left: 8vw;
+    margin-top: 5vh;
+    font-size: 15px;
+  }
+
+  .corpo a:link, a:visited {
+    text-decoration: none;
+    margin-left: 8vw;
+  }
+
+  .storia {
+    position: relative;
+    float: left;
+    width: 100vw;
+    margin-top: 8vw;
+  }
+
+  .coming {
+    position: relative;
+    float: left;
+    width: 100vw;
+  }
+
+  .imgstoria {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/screen.png);
+    background-position: top;
+    background-size: cover;
+  }
+
+  .imgcoming {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    display: none;
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 84vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    background-image: url(immagini/method.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+  }
+
+  .textstoria {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    width: 84vw;
+  }
+
+  .textstoria p {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .textstoria img {
+    display: none;
+    height: 15vw;
+    margin-bottom: 1vw;
+  }
+
+.nascondi {
+  position: relative;
+  float: left;
+  margin-left: 8vw;
+  display: block;
+  height: 15vw;
+}
+
+  .textstoria a {
+    text-decoration: none;
+  }
+
+  .textcoming {
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 15vw;
+    width: 84vw;
+  }
+
+  .textcoming p {
+    line-height: 25px;
+    font-size: 15px;
   }
 
   .textcoming img {
@@ -933,10 +956,6 @@
 
 @media (min-width: 250px) and (max-width: 320px) {
 
-  body {
-    font-size: 15px;
-    line-height: 18px;
-  }
 
   h1 {
     font-size: 90px;
