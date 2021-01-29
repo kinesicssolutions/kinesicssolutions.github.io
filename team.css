@@ -191,12 +191,12 @@
   line-height: 20px;
   font-weight: 200;
   margin:0;
-  width: 22vw;
+  width: 36vw;
 }
 
 .persona img {
-  width: 22vw;
-  height: 15vw;
+  width: 36vw;
+  height: 25vw;
   background-color: #e53b1a;
 }
 }
@@ -247,7 +247,7 @@
 
 .persona img {
   width: 36vw;
-  height: 30vw;
+  height: 25vw;
   background-color: #e53b1a;
 }
 
