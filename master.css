@@ -8,7 +8,7 @@
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -188,7 +188,7 @@
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -363,7 +363,7 @@ float:left;
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -544,7 +544,7 @@ float:left;
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -729,7 +729,7 @@ float:left;
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -966,7 +966,7 @@ float:left;
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }
@@ -1200,7 +1200,7 @@ float:left;
   html {
    position: absolute;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-color: #ededf4;
    -webkit-text-size-adjust: none;
   }

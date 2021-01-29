@@ -62,15 +62,21 @@
   }
 
   #kyro {
-    background-image: url();
-  }
+      background-image: url(immagini/kiro.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #method {
-    background-image: url();
-  }
+      background-image: url(immagini/method.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #tylo {
-    background-image: url();
+    background-image: url(immagini/tylo.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 }
 
@@ -144,15 +150,21 @@
   }
 
   #kyro {
-    background-image: url();
-  }
+      background-image: url(immagini/kiro.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #method {
-    background-image: url();
-  }
+      background-image: url(immagini/method.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #tylo {
-    background-image: url();
+    background-image: url(immagini/tylo.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
 }
@@ -226,15 +238,21 @@
   }
 
   #kyro {
-    background-image: url();
-  }
+      background-image: url(immagini/kiro.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #method {
-    background-image: url();
-  }
+      background-image: url(immagini/method.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #tylo {
-    background-image: url();
+    background-image: url(immagini/tylo.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
 }
@@ -308,15 +326,21 @@
   }
 
   #kyro {
-    background-image: url();
-  }
+      background-image: url(immagini/kiro.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #method {
-    background-image: url();
-  }
+      background-image: url(immagini/method.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #tylo {
-    background-image: url();
+    background-image: url(immagini/tylo.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
 
@@ -391,15 +415,21 @@
   }
 
   #kyro {
-    background-image: url();
-  }
+      background-image: url(immagini/kiro.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #method {
-    background-image: url();
-  }
+      background-image: url(immagini/method.jpg);
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
 
   #tylo {
-    background-image: url();
+    background-image: url(immagini/tylo.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
 
@@ -471,15 +501,21 @@ h6 {
 }
 
 #kyro {
-  background-image: url();
-}
+    background-image: url(immagini/kiro.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
 
 #method {
-  background-image: url();
-}
+    background-image: url(immagini/method.jpg);
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
 
 #tylo {
-  background-image: url();
+  background-image: url(immagini/tylo.jpg);
+  -webkit-filter: grayscale();
+  filter: grayscale();
 }
 
 }
