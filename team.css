@@ -118,7 +118,7 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
 
   h4 {
     font-size: 30px;
@@ -128,12 +128,38 @@
     margin: 20px 0 30px 0;
   }
 
+  h5 {
+    font-size: 20px;
+    font-family: rubrik-new;
+    font-weight: 500;
+    color: #e53b1a;
+    margin: 20px 0 10px 0;
+  }
+
 .main {
   width: 84vw;
   margin-left: 8vw;
   margin-top: 100px;
 
 }
+
+.persona {
+ margin-bottom: 60px;
+}
+
+.persona p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 200;
+  margin:0;
+}
+
+.persona img {
+  width: 84vw;
+  height: 50vw;
+  background-color: #e53b1a;
+}
+
 
 }
 
