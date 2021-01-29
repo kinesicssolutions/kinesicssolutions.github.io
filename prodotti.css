@@ -1,0 +1,485 @@
+@media only screen and (min-width: 1280px) {
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 25px 0 20px 0;
+  }
+
+  h6 {
+    float: left;
+    display: block;
+    margin:0;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 200;
+
+  }
+
+  .prodotto {
+    position: relative;
+    display: flex;
+    float: left;
+    width:84vw;
+    margin-left: 8vw;
+    margin-top: 100px;
+  }
+
+  .prodotto a:link, a:visited {
+    float: left;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .imgprodotto {
+    width: 38vw;
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #e53b1a;
+  }
+
+  .textprodotto {
+    width: 38vw;
+    float: left;
+    margin-left: 8vw;
+    align-self: flex-end;
+  }
+
+  .prodotto p {
+    margin-top: 5vh;
+    width: 38vw;
+    float: left;
+    line-height: 25px;
+    font-size: 15px;
+    margin:0;
+  }
+
+  #apto {
+    background-image: url(immagini/open.jpg);
+  }
+
+  #kyro {
+    background-image: url();
+  }
+
+  #method {
+    background-image: url();
+  }
+
+  #tylo {
+    background-image: url();
+  }
+}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 25px 0 20px 0;
+  }
+
+  h6 {
+    float: left;
+    display: block;
+    margin:0;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 200;
+
+  }
+
+  .prodotto {
+    position: relative;
+    display: flex;
+    float: left;
+    width:84vw;
+    margin-left: 8vw;
+    margin-top: 100px;
+  }
+
+  .prodotto a:link, a:visited {
+    float: left;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .imgprodotto {
+    width: 38vw;
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #e53b1a;
+  }
+
+  .textprodotto {
+    width: 38vw;
+    float: left;
+    margin-left: 8vw;
+    align-self: flex-end;
+  }
+
+  .prodotto p {
+    margin-top: 5vh;
+    width: 38vw;
+    float: left;
+    line-height: 25px;
+    font-size: 15px;
+    margin:0;
+  }
+
+  #apto {
+    background-image: url(immagini/open.jpg);
+  }
+
+  #kyro {
+    background-image: url();
+  }
+
+  #method {
+    background-image: url();
+  }
+
+  #tylo {
+    background-image: url();
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation : portrait) {
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 25px 0 20px 0;
+  }
+
+  h6 {
+    float: left;
+    display: block;
+    margin:0;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 200;
+
+  }
+
+  .prodotto {
+    position: relative;
+    display: flex;
+    float: left;
+    width:84vw;
+    margin-left: 8vw;
+    margin-top: 100px;
+  }
+
+  .prodotto a:link, a:visited {
+    float: left;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .imgprodotto {
+    width: 38vw;
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #e53b1a;
+  }
+
+  .textprodotto {
+    width: 38vw;
+    float: left;
+    margin-left: 8vw;
+    align-self: flex-end;
+  }
+
+  .prodotto p {
+    margin-top: 5vh;
+    width: 38vw;
+    float: left;
+    line-height: 25px;
+    font-size: 15px;
+    margin:0;
+  }
+
+  #apto {
+    background-image: url(immagini/open.jpg);
+  }
+
+  #kyro {
+    background-image: url();
+  }
+
+  #method {
+    background-image: url();
+  }
+
+  #tylo {
+    background-image: url();
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 25px 0 20px 0;
+  }
+
+  h6 {
+    float: left;
+    display: block;
+    margin:0;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 200;
+
+  }
+
+  .prodotto {
+    position: relative;
+    display: flex;
+    float: left;
+    width:84vw;
+    margin-left: 8vw;
+    margin-top: 100px;
+  }
+
+  .prodotto a:link, a:visited {
+    float: left;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .imgprodotto {
+    width: 38vw;
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #e53b1a;
+  }
+
+  .textprodotto {
+    width: 38vw;
+    float: left;
+    margin-left: 8vw;
+    align-self: flex-end;
+  }
+
+  .prodotto p {
+    margin-top: 5vh;
+    width: 38vw;
+    float: left;
+    line-height: 25px;
+    font-size: 15px;
+    margin:0;
+  }
+
+  #apto {
+    background-image: url(immagini/open.jpg);
+  }
+
+  #kyro {
+    background-image: url();
+  }
+
+  #method {
+    background-image: url();
+  }
+
+  #tylo {
+    background-image: url();
+  }
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  h4 {
+    font-size: 30px;
+    font-family: rubrik-new;
+    font-weight: 400;
+    color: #212529;
+    margin: 25px 0 20px 0;
+  }
+
+  h6 {
+    float: left;
+    display: block;
+    margin:0;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 200;
+
+  }
+
+  .prodotto {
+    position: relative;
+    display: flex;
+    float: left;
+    width:84vw;
+    margin-left: 8vw;
+    margin-top: 100px;
+  }
+
+  .prodotto a:link, a:visited {
+    float: left;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .imgprodotto {
+    width: 38vw;
+    height: 38vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #e53b1a;
+  }
+
+  .textprodotto {
+    width: 38vw;
+    float: left;
+    margin-left: 8vw;
+    align-self: flex-end;
+  }
+
+  .prodotto p {
+    margin-top: 5vh;
+    width: 38vw;
+    float: left;
+    line-height: 25px;
+    font-size: 15px;
+    margin:0;
+  }
+
+  #apto {
+    background-image: url(immagini/open.jpg);
+  }
+
+  #kyro {
+    background-image: url();
+  }
+
+  #method {
+    background-image: url();
+  }
+
+  #tylo {
+    background-image: url();
+  }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+h4 {
+  font-size: 30px;
+  font-family: rubrik-new;
+  font-weight: 400;
+  color: #212529;
+  margin: 25px 0 20px 0;
+}
+
+h6 {
+  float: left;
+  display: block;
+  margin:0;
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 200;
+}
+
+.prodotto {
+  position: relative;
+  display: block;
+  float: left;
+  width:84vw;
+  margin-left: 8vw;
+  margin-top: 100px;
+}
+
+.prodotto a:link, a:visited {
+  float: left;
+  display: block;
+  margin-top: 20px;
+}
+
+.imgprodotto {
+  width: 100%;
+  height: 50vw;
+  background-size: cover;
+  background-position: center;
+  background-color: #e53b1a;
+}
+
+.textprodotto {
+  width: 84vw;
+  float: left;
+}
+
+.prodotto p {
+  margin-top: 5vh;
+  width: 84vw;
+  float: left;
+  line-height: 25px;
+  font-size: 15px;
+  margin:0;
+}
+
+#apto {
+  background-image: url(immagini/open.jpg);
+}
+
+#kyro {
+  background-image: url();
+}
+
+#method {
+  background-image: url();
+}
+
+#tylo {
+  background-image: url();
+}
+
+}
