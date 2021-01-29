@@ -113,6 +113,8 @@ $(window).resize(function(){
   $('#team').css('opacity', '0');
   $('body').css('overflow', 'scroll');
   $('body').css('touch-action', 'auto');
+  window.outerHeight = window.innerHeight;
+  window.outerWidth = window.innerWidth;
 });
 
 

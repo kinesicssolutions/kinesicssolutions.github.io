@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1280px) {
 
   h4 {
     font-size: 30px;
@@ -109,7 +109,7 @@
   ##Screen = B/w 1025px to 1280px
 */
 
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
 
   h4 {
     font-size: 30px;
@@ -153,14 +153,14 @@
   }
 
   .siemens img {
-    width: 36vw;
-    height: 36vw;
+    width: 38vw;
+    height: 38vw;
     float: left;
 
   }
 
   .textsiemens {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     flex-direction: column;
@@ -184,7 +184,7 @@
 
   .vision {
     margin-left: 8vw;
-    width: 36vw;
+    width: 38vw;
     float: left;
     line-height: 25px;
   }
@@ -194,7 +194,7 @@
   }
 
   .mission {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     line-height: 25px;
@@ -216,7 +216,7 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : portrait) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation : portrait) {
 
   h4 {
     font-size: 30px;
@@ -260,14 +260,14 @@
   }
 
   .siemens img {
-    width: 36vw;
-    height: 36vw;
+    width: 38vw;
+    height: 38vw;
     float: left;
 
   }
 
   .textsiemens {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     flex-direction: column;
@@ -291,7 +291,7 @@
 
   .vision {
     margin-left: 8vw;
-    width: 36vw;
+    width: 38vw;
     float: left;
     line-height: 25px;
   }
@@ -301,7 +301,7 @@
   }
 
   .mission {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     line-height: 25px;
@@ -324,7 +324,7 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
 
   h4 {
     font-size: 30px;
@@ -368,14 +368,14 @@
   }
 
   .siemens img {
-    width: 36vw;
-    height: 36vw;
+    width: 38vw;
+    height: 38vw;
     float: left;
 
   }
 
   .textsiemens {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     flex-direction: column;
@@ -399,7 +399,7 @@
 
   .vision {
     margin-left: 8vw;
-    width: 36vw;
+    width: 38vw;
     float: left;
     line-height: 25px;
   }
@@ -409,7 +409,7 @@
   }
 
   .mission {
-    width: 36vw;
+    width: 38vw;
     margin-left: 8vw;
     float: left;
     line-height: 25px;
@@ -432,7 +432,7 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
   h4 {
     font-size: 30px;
