@@ -35,14 +35,27 @@
   </div>
 
   <div class="main" id="main">
+    <div class="open">
+    <div class="imgopen" id="imgopen">
+      <div>
+        <img src="immagini/apto3.jpg">
 
-    <div class="corpo">
-  <h1>apto</h1>
-  <h3>know your limits</h3>
-  <p>La nuova frontiera della comunicazione &#232; qui. <br>
-  A portata di mano.</p>
-  <a href="apto.html"<font style="color: #e53b1a">SCOPRI DI PI&Ugrave ></font></a>
-  </div>
+      <h1>apto</h1>
+      <h3>know your limits</h3>
+      <p>La nuova frontiera della comunicazione &#232; qui. <br>
+      A portata di mano.</p>
+      <a href="apto.html"<font style="color: #e53b1a">SCOPRI DI PI&Ugrave ></font></a>
+
+      </div>
+      <div>
+        <img src="immagini/aptotop.jpg">
+      </div>
+      <div>
+        <img src="immagini/aptodet.jpg">
+      </div>
+    </div>
+</div>
+
 <div class="storia">
   <img src="immagini/kappa.gif" class="nascondi">
 <div class="imgstoria">
@@ -131,6 +144,16 @@ $(window).resize(function(){
   $('body').css('touch-action', 'auto');
 });
 
+$("#imgopen > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#imgopen > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#imgopen');
+},  5000);
 
 
 
