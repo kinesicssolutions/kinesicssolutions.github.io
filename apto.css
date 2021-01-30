@@ -41,16 +41,25 @@
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -164,6 +173,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+    margin-bottom: 25vw;
 }
 
 }
@@ -216,16 +226,25 @@
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -338,6 +357,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 25vw;
 }
 
 }
@@ -390,16 +410,25 @@
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -512,6 +541,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 25vw;
 }
 
 }
@@ -564,16 +594,25 @@
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -686,6 +725,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 25vw;
 }
 }
 
@@ -737,16 +777,25 @@
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide_cel.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -859,6 +908,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 25vw;
 }
 
 }
@@ -911,17 +961,26 @@ float: left;
 }
 
 .open {
-width: 100vw;
-height: 100vh;
-background-image: url(immagini/slide_cel.gif);
-background-size: cover;
-background-color: #e53b1a;
-position: relative;
-float: left;
-margin: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #ededf4;
+  position: relative;
+  float: left;
+  margin: 0;
+}
+
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .textopen {
+  position: relative;
 width: 84vw;
 margin-left: 8vw;
 }
@@ -1026,7 +1085,8 @@ position: relative;
 float: left;
 width: 84vw;
 margin-left: 8vw;
-margin-top: 25vw; 
+margin-top: 25vw;
+margin-bottom: 25vw;
 }
 }
 
@@ -1073,16 +1133,25 @@ margin-top: 25vw;
 
 .open {
   width: 100vw;
-  height: 100vh;
-  background-image: url(immagini/slide_cel.gif);
-  background-size: cover;
-  background-color: #e53b1a;
+  height: 100%;
+  background-color: #ededf4;
   position: relative;
   float: left;
   margin: 0;
 }
 
+.imgopen img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .textopen {
+  position: relative;
   width: 84vw;
   margin-left: 8vw;
 }
@@ -1188,6 +1257,7 @@ margin-top: 25vw;
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 25vw;
 }
 
 

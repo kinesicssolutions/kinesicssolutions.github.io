@@ -36,6 +36,17 @@
 
   <div class="main" id="main">
     <div class="open">
+      <div class="imgopen" id="imgopen">
+        <div>
+          <img src="immagini/apto_3.jpg">
+        </div>
+        <div>
+          <img src="immagini/apto_top.jpg">
+        </div>
+        <div>
+          <img src="immagini/apto_det.jpg">
+        </div>
+      </div>
       <div class="textopen">
         <h1>apto</h1>
         <h3>know your limits</h3>
@@ -143,6 +154,18 @@ $(window).resize(function(){
   $('body').css('overflow', 'scroll');
   $('body').css('touch-action', 'auto');
 });
+
+$("#imgopen > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#imgopen > div:first')
+    .fadeOut(1000)
+.next()
+    .fadeIn(1000)
+
+    .end()
+    .appendTo('#imgopen');
+},  5000);
 
 
 
