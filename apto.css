@@ -44,7 +44,7 @@
   height: 100vh;
   background-image: url(immagini/slide.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -96,7 +96,7 @@
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -115,7 +115,7 @@
   width: 38vw;
   height: 25vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -162,7 +162,7 @@
   position: relative;
   float: left;
   width: 84vw;
-  margin-top: 8vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 
@@ -219,7 +219,7 @@
   height: 100vh;
   background-image: url(immagini/slide.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -271,7 +271,7 @@
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -290,7 +290,7 @@
   width: 38vw;
   height: 25vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -325,15 +325,18 @@
   width: 38vw;
   height: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
   position: relative;
   float: left;
   width: 84vw;
-  margin-top: 8vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 
@@ -390,7 +393,7 @@
   height: 100vh;
   background-image: url(immagini/slide.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -442,7 +445,7 @@
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -461,7 +464,7 @@
   width: 38vw;
   height: 38vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -496,15 +499,18 @@
   width: 38vw;
   height: 38vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
   position: relative;
   float: left;
   width: 84vw;
-  margin-top: 8vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 
@@ -561,7 +567,7 @@
   height: 100vh;
   background-image: url(immagini/slide.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -613,7 +619,7 @@
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -632,7 +638,7 @@
   width: 38vw;
   height: 25vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -667,15 +673,18 @@
   width: 38vw;
   height: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
   position: relative;
   float: left;
   width: 84vw;
-  margin-top: 8vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 }
@@ -731,7 +740,7 @@
   height: 100vh;
   background-image: url(immagini/slide_cel.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -783,7 +792,7 @@
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -802,7 +811,7 @@
   width: 38vw;
   height: 38vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -837,15 +846,18 @@
   width: 38vw;
   height: 38vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
   position: relative;
   float: left;
   width: 84vw;
-  margin-top: 8vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 
@@ -903,7 +915,7 @@ width: 100vw;
 height: 100vh;
 background-image: url(immagini/slide_cel.gif);
 background-size: cover;
-background-color: orange;
+background-color: #e53b1a;
 position: relative;
 float: left;
 margin: 0;
@@ -953,7 +965,7 @@ height: 50vw;
 margin-top: 25vw;
 margin-left: 8vw;
 background-image: url();
-background-color: orange;
+background-color: #e53b1a;
 }
 
 .esploso {
@@ -972,7 +984,7 @@ float: left;
 width: 84vw;
 height: 50vw;
 background-image: url();
-background-color: orange;
+background-color: #e53b1a;
 }
 
 .textesploso {
@@ -1002,8 +1014,11 @@ position: relative;
 float: left;
 width: 84vw;
 height: 50vw;
-background-image: url();
-background-color: orange;
+background-image: url(immagini/istruzioni.gif);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+background-color: transparent;
 }
 
 .stories {
@@ -1011,6 +1026,7 @@ position: relative;
 float: left;
 width: 84vw;
 margin-left: 8vw;
+margin-top: 25vw; 
 }
 }
 
@@ -1060,7 +1076,7 @@ margin-left: 8vw;
   height: 100vh;
   background-image: url(immagini/slide_cel.gif);
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   position: relative;
   float: left;
   margin: 0;
@@ -1110,7 +1126,7 @@ margin-left: 8vw;
   margin-top: 25vw;
   margin-left: 8vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .esploso {
@@ -1129,7 +1145,7 @@ margin-left: 8vw;
   width: 84vw;
   height: 50vw;
   background-image: url();
-  background-color: orange;
+  background-color: #e53b1a;
 }
 
 .textesploso {
@@ -1159,14 +1175,18 @@ margin-left: 8vw;
   float: left;
   width: 84vw;
   height: 50vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
   position: relative;
   float: left;
   width: 84vw;
+  margin-top: 25vw;
   margin-left: 8vw;
 }
 
