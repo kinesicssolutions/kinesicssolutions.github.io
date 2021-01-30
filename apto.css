@@ -77,12 +77,18 @@
   display: flex;
 }
 
+.titolicara {
+  position: relative;
+  width: 19vw;
+  margin: auto;
+}
+
 .imgcara {
   position: relative;
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -262,12 +268,18 @@
   display: flex;
 }
 
+.titolicara {
+  position: relative;
+  width: 19vw;
+  margin: auto;
+}
+
 .imgcara {
   position: relative;
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -446,12 +458,18 @@
   display: flex;
 }
 
+.titolicara {
+  position: relative;
+  width: 19vw;
+  margin: auto;
+}
+
 .imgcara {
   position: relative;
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -635,11 +653,17 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
   margin-left: 8vw;
+}
+
+.titolicara {
+  position: relative;
+  width: 19vw;
+  margin: auto;
 }
 
 .textcara {
@@ -813,12 +837,18 @@
   display: flex;
 }
 
+.titolicara {
+  position: relative;
+  width: 38vw;
+  margin: auto;
+}
+
 .imgcara {
   position: relative;
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -999,12 +1029,18 @@ display: flex;
 flex-direction: column-reverse;
 }
 
+.titolicara {
+  position: relative;
+  width: 50vw;
+  margin: auto;
+}
+
 .imgcara {
 position: relative;
 float: left;
 width: 84vw;
 height: 50vw;
-background-image: url(immagini/apto_hero.JPG);
+background-image: url(immagini/apto_side.JPG);
 background-position: center;
 background-size: cover;
 background-color: #e53b1a;
@@ -1170,12 +1206,18 @@ margin-bottom: 8vw;
   flex-direction: column-reverse;
 }
 
+.titolicara {
+  position: relative;
+  width: 50vw;
+  margin: auto;
+}
+
 .imgcara {
   position: relative;
   float: left;
   width: 84vw;
   height: 50vw;
-  background-image: url(immagini/apto_hero.JPG);
+  background-image: url(immagini/apto_side.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
