@@ -42,7 +42,8 @@
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -75,7 +76,7 @@
   background-image: url(immagini/apto_hero.jpg);
   background-position: center;
   background-size: cover;
-  background-color: orange;
+  background-color: #e53b1a;
   margin-left: 8vw;
 }
 
@@ -141,6 +142,7 @@
   position: relative;
   float: left;
   line-height: 25px;
+  align-self: flex-end;
 }
 
 .imgistruzioni {
@@ -149,8 +151,11 @@
   width: 38vw;
   height: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/istruzioni.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .stories {
@@ -212,7 +217,8 @@
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -242,8 +248,10 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e53b1a;
   margin-left: 8vw;
 }
 
@@ -380,7 +388,8 @@
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -410,8 +419,10 @@
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e53b1a;
   margin-left: 8vw;
 }
 
@@ -548,7 +559,8 @@
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -578,8 +590,10 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e53b1a;
   margin-left: 8vw;
 }
 
@@ -715,7 +729,8 @@
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide_cel.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -745,8 +760,10 @@
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e53b1a;
   margin-left: 8vw;
 }
 
@@ -884,7 +901,8 @@ float: left;
 .open {
 width: 100vw;
 height: 100vh;
-background-image: url();
+background-image: url(immagini/slide_cel.gif);
+background-size: cover;
 background-color: orange;
 position: relative;
 float: left;
@@ -915,8 +933,10 @@ position: relative;
 float: left;
 width: 84vw;
 height: 50vw;
-background-image: url();
-background-color: orange;
+background-image: url(immagini/apto_hero.jpg);
+background-position: center;
+background-size: cover;
+background-color: #e53b1a;
 }
 
 .textcara {
@@ -1038,7 +1058,8 @@ margin-left: 8vw;
 .open {
   width: 100vw;
   height: 100vh;
-  background-image: url();
+  background-image: url(immagini/slide_cel.gif);
+  background-size: cover;
   background-color: orange;
   position: relative;
   float: left;
@@ -1069,8 +1090,10 @@ margin-left: 8vw;
   float: left;
   width: 84vw;
   height: 50vw;
-  background-image: url();
-  background-color: orange;
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e53b1a;
 }
 
 .textcara {
