@@ -72,7 +72,9 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url();
+  background-image: url(immagini/apto_hero.jpg);
+  background-position: center;
+  background-size: cover;
   background-color: orange;
   margin-left: 8vw;
 }
