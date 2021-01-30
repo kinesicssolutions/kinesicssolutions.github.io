@@ -72,6 +72,17 @@
     }
   }
 
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
+  }
+
+
   .menu {
     display: inline-block;
     position: fixed;
@@ -252,6 +263,16 @@
     }
   }
 
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
+  }
+
   .menu {
     display: inline-block;
     position: fixed;
@@ -425,6 +446,16 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
   }
 
   .menu {
@@ -606,6 +637,16 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
   }
 
   .menu {
@@ -791,6 +832,16 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
   }
 
   .menu {
@@ -1030,6 +1081,16 @@ float:left;
     }
   }
 
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
+  }
+
   .menu {
     display: inline-block;
     position: fixed;
@@ -1262,6 +1323,16 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .caricamento  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(immagini/caricamento.gif) center no-repeat #ededf4;
+    z-index: 9999;
   }
 
   .menu {

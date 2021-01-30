@@ -6,8 +6,19 @@
   <link rel="stylesheet" href="master.css">
   <link rel="stylesheet" href="https://use.typekit.net/hub5emd.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script type="text/javascript">
+  $(window).load(function() {
+  		$(".caricamento").fadeOut("slow");;
+  	});
+
+  </script>
 </head>
 <body>
+  <div class="caricamento">
+
+  </div>
   <div class="menu_tel" id="menu_tel">
     <a href="index.html"><img src="immagini/kin_logo.png" id="logo"></a>
     <img src="immagini/chiudi.png" class="chiudi" id="chiudi">
@@ -78,14 +89,8 @@
       <br>Condizioni d'Uso&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Vendite e Rimborsi&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="note.html">Note Legali</a></p>
 </div>
 
-<script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-
 
 <script type="text/javascript">
-
 
 function funzionemenu() {
   $('body').css('overflow', 'hidden');
