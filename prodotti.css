@@ -58,7 +58,7 @@
   }
 
   #apto {
-    background-image: url(immagini/apto_side.jpg);
+    background-image: url(immagini/aptoside.jpg);
   }
 
   #kiro {
@@ -146,10 +146,10 @@
   }
 
   #apto {
-    background-image: url(immagini/open.jpg);
+    background-image: url(immagini/aptoside.jpg);
   }
 
-  #kyro {
+  #kiro {
       background-image: url(immagini/kiro.jpg);
       -webkit-filter: grayscale();
       filter: grayscale();
@@ -234,10 +234,10 @@
   }
 
   #apto {
-    background-image: url(immagini/open.jpg);
+    background-image: url(immagini/aptoside.jpg);
   }
 
-  #kyro {
+  #kiro {
       background-image: url(immagini/kiro.jpg);
       -webkit-filter: grayscale();
       filter: grayscale();
@@ -322,10 +322,10 @@
   }
 
   #apto {
-    background-image: url(immagini/open.jpg);
+    background-image: url(immagini/aptoside.jpg);
   }
 
-  #kyro {
+  #kiro {
       background-image: url(immagini/kiro.jpg);
       -webkit-filter: grayscale();
       filter: grayscale();
@@ -411,10 +411,10 @@
   }
 
   #apto {
-    background-image: url(immagini/open.jpg);
+    background-image: url(immagini/aptoside.jpg);
   }
 
-  #kyro {
+  #kiro {
       background-image: url(immagini/kiro.jpg);
       -webkit-filter: grayscale();
       filter: grayscale();
@@ -497,10 +497,10 @@ h6 {
 }
 
 #apto {
-  background-image: url(immagini/open.jpg);
+  background-image: url(immagini/aptoside.jpg);
 }
 
-#kyro {
+#kiro {
     background-image: url(immagini/kiro.jpg);
     -webkit-filter: grayscale();
     filter: grayscale();
