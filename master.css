@@ -72,6 +72,28 @@
     }
   }
 
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+
   .caricamento  {
     position: fixed;
     top: 0;
@@ -263,6 +285,17 @@
     }
   }
 
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+
   .caricamento  {
     position: fixed;
     top: 0;
@@ -446,6 +479,17 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
   }
 
   .caricamento  {
@@ -637,6 +681,17 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
   }
 
   .caricamento  {
@@ -832,6 +887,17 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
   }
 
   .caricamento  {
@@ -1081,6 +1147,17 @@ float:left;
     }
   }
 
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+
   .caricamento  {
     position: fixed;
     top: 0;
@@ -1323,6 +1400,17 @@ float:left;
     100% {
       opacity: 1;
     }
+  }
+
+  .no-js #loader {
+    display: none;
+  }
+
+  .js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
   }
 
   .caricamento  {
