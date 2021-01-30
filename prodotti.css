@@ -58,10 +58,10 @@
   }
 
   #apto {
-    background-image: url(immagini/open.jpg);
+    background-image: url(immagini/apto_side.jpg);
   }
 
-  #kyro {
+  #kiro {
       background-image: url(immagini/kiro.jpg);
       -webkit-filter: grayscale();
       filter: grayscale();
