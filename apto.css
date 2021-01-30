@@ -82,7 +82,7 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -173,7 +173,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
-    margin-bottom: 25vw;
+    margin-bottom: 8vw;
 }
 
 }
@@ -267,7 +267,7 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -357,7 +357,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
-  margin-bottom: 25vw;
+  margin-bottom: 8vw;
 }
 
 }
@@ -451,7 +451,7 @@
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -541,7 +541,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
-  margin-bottom: 25vw;
+  margin-bottom: 8vw;
 }
 
 }
@@ -635,7 +635,7 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -725,6 +725,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 8vw;
 }
 }
 
@@ -817,7 +818,7 @@
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -907,6 +908,7 @@
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 8vw;
 }
 
 }
@@ -1002,7 +1004,7 @@ position: relative;
 float: left;
 width: 84vw;
 height: 50vw;
-background-image: url(immagini/apto_hero.jpg);
+background-image: url(immagini/apto_hero.JPG);
 background-position: center;
 background-size: cover;
 background-color: #e53b1a;
@@ -1084,6 +1086,7 @@ float: left;
 width: 84vw;
 margin-left: 8vw;
 margin-top: 25vw;
+margin-bottom: 8vw;
 }
 }
 
@@ -1172,7 +1175,7 @@ margin-top: 25vw;
   float: left;
   width: 84vw;
   height: 50vw;
-  background-image: url(immagini/apto_hero.jpg);
+  background-image: url(immagini/apto_hero.JPG);
   background-position: center;
   background-size: cover;
   background-color: #e53b1a;
@@ -1254,6 +1257,7 @@ margin-top: 25vw;
   width: 84vw;
   margin-top: 25vw;
   margin-left: 8vw;
+  margin-bottom: 8vw;
 }
 
 
