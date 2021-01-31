@@ -129,8 +129,12 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .textesploso {
@@ -139,7 +143,6 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
-  align-self: flex-end;
 }
 
 .istruzioni {
@@ -319,9 +322,13 @@
   position: relative;
   float: left;
   width: 38vw;
-  height: 25vw;
-  background-image: url();
-  background-color: #e53b1a;
+  height: 20vw;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .textesploso {
@@ -330,7 +337,6 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
-  align-self: flex-end;
 }
 
 .istruzioni {
@@ -509,10 +515,15 @@
   position: relative;
   float: left;
   width: 38vw;
-  height: 38vw;
-  background-image: url();
-  background-color: #e53b1a;
+  height: 25vw;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
+
 
 .textesploso {
   position: relative;
@@ -520,7 +531,6 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
-  align-self: flex-end;
 }
 
 .istruzioni {
@@ -700,8 +710,12 @@
   float: left;
   width: 38vw;
   height: 25vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .textesploso {
@@ -710,7 +724,6 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
-  align-self: flex-end;
 }
 
 .istruzioni {
@@ -889,8 +902,12 @@
   float: left;
   width: 38vw;
   height: 38vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .textesploso {
@@ -899,7 +916,6 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
-  align-self: flex-end;
 }
 
 .istruzioni {
@@ -1078,8 +1094,12 @@ position: relative;
 float: left;
 width: 84vw;
 height: 50vw;
-background-image: url();
-background-color: #e53b1a;
+background-image: url(immagini/esploso.jpg);
+background-position: center;
+background-size: contain;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: top;
 }
 
 .textesploso {
@@ -1255,8 +1275,12 @@ margin-bottom: 8vw;
   float: left;
   width: 84vw;
   height: 50vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/esploso.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .textesploso {
