@@ -91,7 +91,7 @@
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
   margin-left: 8vw;
 }
 
@@ -107,11 +107,13 @@
   position: relative;
   float: left;
   width: 84vw;
-  height: 38vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -286,7 +288,7 @@
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
   margin-left: 8vw;
 }
 
@@ -302,11 +304,13 @@
   position: relative;
   float: left;
   width: 84vw;
-  height: 38vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -480,7 +484,7 @@
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
   margin-left: 8vw;
 }
 
@@ -496,11 +500,13 @@
   position: relative;
   float: left;
   width: 84vw;
-  height: 38vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -669,7 +675,7 @@
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
   margin-left: 8vw;
 }
 
@@ -691,11 +697,13 @@
   position: relative;
   float: left;
   width: 84vw;
-  height: 38vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -868,7 +876,7 @@
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
   margin-left: 8vw;
 }
 
@@ -884,11 +892,13 @@
   position: relative;
   float: left;
   width: 84vw;
-  height: 38vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -1063,7 +1073,7 @@ height: 50vw;
 background-image: url(immagini/aptoside.jpg);
 background-position: center;
 background-size: cover;
-background-color: #e53b1a;
+background-color: #ededf4;
 }
 
 .textcara {
@@ -1073,14 +1083,16 @@ line-height: 25px;
 }
 
 .aspetto {
-position: relative;
-float: left;
-width: 84vw;
-height: 50vw;
-margin-top: 25vw;
-margin-left: 8vw;
-background-image: url();
-background-color: #e53b1a;
+  position: relative;
+  float: left;
+  width: 84vw;
+  height: calc(84vw * (9/16));
+  margin-top: 25vw;
+  margin-left: 8vw;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
@@ -1244,7 +1256,7 @@ margin-bottom: 8vw;
   background-image: url(immagini/aptoside.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #e53b1a;
+  background-color: #ededf4;
 }
 
 .textcara {
@@ -1257,11 +1269,13 @@ margin-bottom: 8vw;
   position: relative;
   float: left;
   width: 84vw;
-  height: 50vw;
+  height: calc(84vw * (9/16));
   margin-top: 25vw;
   margin-left: 8vw;
-  background-image: url();
-  background-color: #e53b1a;
+  background-image: url(immagini/video.ghif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ededf4;
 }
 
 .esploso {
