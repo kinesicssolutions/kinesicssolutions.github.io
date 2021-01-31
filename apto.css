@@ -134,7 +134,7 @@
   background-size: contain;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
 }
 
 .textesploso {
@@ -143,6 +143,7 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
+  align-self: flex-end;
 }
 
 .istruzioni {
@@ -328,7 +329,7 @@
   background-size: contain;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
 }
 
 .textesploso {
@@ -337,6 +338,7 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
+  align-self: flex-end;
 }
 
 .istruzioni {
@@ -521,7 +523,7 @@
   background-size: contain;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
 }
 
 
@@ -531,6 +533,7 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
+  align-self: flex-end;
 }
 
 .istruzioni {
@@ -715,7 +718,7 @@
   background-size: contain;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
 }
 
 .textesploso {
@@ -724,6 +727,7 @@
   line-height: 25px;
   width: 38vw;
   margin-left: 8vw;
+  align-self: flex-end;
 }
 
 .istruzioni {
