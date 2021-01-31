@@ -38,7 +38,7 @@
   float: left;
   width:100vw;
   align-items: flex-end;
-  margin-top: 10vw;
+  margin-top: 8vw;
 }
 
 .textsiemens{
@@ -71,7 +71,7 @@
 .centrale {
   width: 100vw;
   float: left;
-  margin-top: 16vw;
+  margin-top: 25vw;
 }
 
 .vision {
@@ -98,8 +98,8 @@
 
 .finale img{
   width: 100vw;
-  margin-bottom: -3vw;
-  margin-top: 16vw;
+  margin-bottom: 8vw;
+  margin-top: 25vw;
 }
 }
 
@@ -149,7 +149,7 @@
     float: left;
     width:84vw;
     margin-left: 8vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
   }
 
   .siemens img {
@@ -177,7 +177,7 @@
   .centrale {
     width: 100vw;
     float: left;
-    margin-top: 10vw;
+    margin-top: 25vw;
     display: flex;
     flex-wrap: wrap;
   }
@@ -206,7 +206,8 @@
 
   .finale img{
     width: 100vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
+    margin-bottom: 8vw;
   }
 
 }
@@ -256,7 +257,7 @@
     float: left;
     width:84vw;
     margin-left: 8vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
   }
 
   .siemens img {
@@ -284,7 +285,7 @@
   .centrale {
     width: 100vw;
     float: left;
-    margin-top: 10vw;
+    margin-top: 25vw;
     display: flex;
     flex-wrap: wrap;
   }
@@ -313,7 +314,8 @@
 
   .finale img{
     width: 100vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
+    margin-bottom: 8vw;
   }
 
 
@@ -364,7 +366,7 @@
     float: left;
     width:84vw;
     margin-left: 8vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
   }
 
   .siemens img {
@@ -392,7 +394,7 @@
   .centrale {
     width: 100vw;
     float: left;
-    margin-top: 10vw;
+    margin-top: 25vw;
     display: flex;
     flex-wrap: wrap;
   }
@@ -421,7 +423,8 @@
 
   .finale img{
     width: 100vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
+    margin-bottom: 8vw;
   }
 
 
@@ -472,7 +475,7 @@
     float: left;
     width:84vw;
     margin-left: 8vw;
-    margin-top: 10vw;
+    margin-top:25vw;
   }
 
   .siemens img {
@@ -500,7 +503,7 @@
   .centrale {
     width: 100vw;
     float: left;
-    margin-top: 10vw;
+    margin-top: 25vw;
     display: flex;
     flex-wrap: wrap;
   }
@@ -529,7 +532,8 @@
 
   .finale img{
     width: 100vw;
-    margin-top: 10vw;
+    margin-top: 25vw;
+    margin-bottom: 8vw;
   }
 
 }
@@ -579,7 +583,7 @@ height: 20vh;
   float: left;
   width:84vw;
   margin-left: 8vw;
-  margin-top: 16vw;
+  margin-top: 25vw;
 }
 
 .siemens img {
@@ -605,7 +609,7 @@ height: 20vh;
 .centrale {
   width: 100vw;
   float: left;
-  margin-top: 30vw;
+  margin-top: 25vw;
 }
 
 .vision {
@@ -633,7 +637,8 @@ height: 20vh;
 
 .finale img{
   width: 100vw;
-  margin-top: 30vw;
+  margin-top: 25vw;
+  margin-bottom: 25vw;
 }
 
 
