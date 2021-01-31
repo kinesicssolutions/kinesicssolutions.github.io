@@ -39,13 +39,6 @@
     <div class="imgopen" id="imgopen">
       <div>
         <img src="immagini/apto3.jpg">
-
-      <h1>apto</h1>
-      <h3>know your limits</h3>
-      <p>La nuova frontiera della comunicazione &#232; qui. <br>
-      A portata di mano.</p>
-      <a href="apto.html"<font style="color: #e53b1a">SCOPRI DI PI&Ugrave ></font></a>
-
       </div>
       <div>
         <img src="immagini/aptotop.jpg">
@@ -53,6 +46,15 @@
       <div>
         <img src="immagini/aptodet.jpg">
       </div>
+    </div>
+    <div class="textopen" id="textopen">
+      <div>
+      <h1>apto</h1>
+      <h3>know your limits</h3>
+      <p>La nuova frontiera <font style="white-space: nowrap">della comunicazione &#232; qui. </font><br>
+      A portata di mano.</p>
+      <a href="apto.html"<font style="color: #e53b1a">SCOPRI DI PI&Ugrave ></font></a>
+    </div>
     </div>
 </div>
 
@@ -71,17 +73,33 @@
 </div>
 <div class="coming">
   <div class="textcoming">
-    <img src="immagini/escla.gif">
-    <div class="imgcoming2">
-
+    <img src="immagini/escla.gif" class='escla'>
+    <div class="imgcoming2" id="imgcoming2">
+      <div>
+        <img src="immagini/method.jpg">
+      </div>
+      <div>
+        <img src="immagini/kiro.jpg">
+      </div>
+      <div>
+        <img src="immagini/tylo.jpg">
+      </div>
     </div>
     <h4>Coming soon</h4>
     <p>Kinesics solutions si rinnova con nuovi prodotti, prossimamente disponibili. <br> Tenetevi informati per saperne di pi&#249;.</p>
   <a href="prodotti.html"><font style="color: #e53b1a">PRODUCT ></font></a>
 
   </div>
-  <div class="imgcoming">
-
+  <div class="imgcoming" id="imgcoming">
+    <div>
+      <img src="immagini/method.jpg">
+    </div>
+    <div>
+      <img src="immagini/kiro.jpg">
+    </div>
+    <div>
+      <img src="immagini/tylo.jpg">
+    </div>
   </div>
 </div>
 
@@ -153,6 +171,28 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#imgopen');
+},  5000);
+
+$("#imgcoming > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#imgcoming > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#imgcoming');
+},  5000);
+
+$("#imgcoming2 > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#imgcoming2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#imgcoming2');
 },  5000);
 
 

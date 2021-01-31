@@ -1,24 +1,20 @@
 @media  screen and (min-width: 1280px) {
 
   h1 {
-    position: relative;
-    font-size: 100px;
+    font-size: 90px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
-    margin-left: 8vw;
     margin-top: 45vh;
   }
 
   h3 {
-    position: relative;
-    font-size: 40px;
+    font-size: 35px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -26,7 +22,7 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
@@ -48,37 +44,39 @@
     object-position: 50% 50%;
   }
 
-  .open p, .open a {
+  .textopen {
+    position: relative;
+    width: 84vw;
+    margin-left: 8vw;
+  }
+
+  .textopen p, .textopen a {
     position: relative;
     line-height: 25px;
-    margin-left: 8vw;
     margin-top: 5vh;
   }
 
   .open a:link, a:visited {
-    float: left;
-    display: block;
-    margin-left: 8vw;
-    margin-bottom: 15vw;
+    text-decoration: none;
   }
 
   .storia {
     position: relative;
     float: left;
+    margin-top: 25vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
-    background-color: transparent;
   }
 
   .coming {
     position: relative;
     float: left;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
   }
 
   .imgstoria {
@@ -86,11 +84,9 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 4vw;
-    margin-left: 8vw;
+    height: 25vw;
     background-image: url(immagini/screen.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
@@ -99,58 +95,68 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 8vw;
+    height: 25vw;
+    display: block;
     margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
   }
 
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    display: none;
+  }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
-    margin-top: 10vw;
     width: 38vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
+    margin-left: 8vw;
   }
 
   .textstoria img {
-    height: 10vw;
-    margin-bottom: 1vw;
+    display: block;
+    height: 6vw;
   }
 
-  .nascondi {
-    display: none;
+.nascondi {
+display: none;
+}
+
+  .textstoria a {
+    text-decoration: none;
   }
 
   .textcoming {
     position: relative;
-    float: left;
-    margin-left: 8vw;
-    margin-top: 15vw;
-    width: 38vw;
-  }
-
-  .textcoming p {
-    position: relative;
-    float: left;
-    width: 38vw;
     line-height: 25px;
-    clear: both;
+    float: left;
+    width: 38vw;
+
   }
 
-  .textcoming img {
-    height: 10vw;
-    margin-bottom: 1vw;
-  }
+
+.escla {
+display: block;
+height: 6vw;
+}
 
   .textcoming a:link, a:visited {
     position: relative;
@@ -168,22 +174,20 @@
 @media  screen and (min-width: 1024px) and (max-width: 1280px) {
 
   h1 {
-    font-size: 100px;
+    font-size: 90px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
-    margin-left: 8vw;
     margin-top: 45vh;
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 35px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -191,47 +195,61 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
+    width: 100vw;
+    height: 100%;
+    background-color: #ededf4;
     position: relative;
     float: left;
-    background-image: url(immagini/open_1920.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
 
-  .open p {
-    line-height: 25px;
+  .imgopen img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .textopen {
+    position: relative;
+    width: 84vw;
     margin-left: 8vw;
+  }
+
+  .textopen p, .textopen a {
+    position: relative;
+    line-height: 25px;
     margin-top: 5vh;
   }
 
   .open a:link, a:visited {
-    margin-left: 8vw;
+    text-decoration: none;
   }
 
   .storia {
     position: relative;
     float: left;
+    margin-top: 25vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
-    background-color: transparent;
   }
 
   .coming {
     position: relative;
     float: left;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
   }
 
   .imgstoria {
@@ -239,11 +257,9 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 4vw;
-    margin-left: 8vw;
+    height: 25vw;
     background-image: url(immagini/screen.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
@@ -252,65 +268,73 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 8vw;
+    height: 25vw;
     margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
+    display: block;
   }
 
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    display: none;
+  }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
-    margin-top: 10vw;
     width: 38vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
+    margin-left: 8vw;
   }
 
   .textstoria img {
-    height: 10vw;
-    margin-bottom: 1vw;
+    display: block;
+    height: 6vw;
   }
 
-  .nascondi {
-    display: none;
+.nascondi {
+display: none;
+}
+
+  .textstoria a {
+    text-decoration: none;
   }
 
   .textcoming {
     position: relative;
-    float: left;
-    margin-left: 8vw;
-    margin-top: 15vw;
-    width: 38vw;
-  }
-
-  .textcoming p {
-    position: relative;
-    float: left;
-    width: 38vw;
     line-height: 25px;
-    clear: both;
+    float: left;
+    width: 38vw;
   }
 
-  .textcoming img {
-    height: 10vw;
-    margin-bottom: 1vw;
-  }
+
+.escla {
+display: block;
+height: 6vw;
+}
 
   .textcoming a:link, a:visited {
     position: relative;
     float: left;
     clear: both;
   }
-
 
 }
 
@@ -322,22 +346,20 @@
 @media  screen and (min-width: 767px) and (max-width: 1024px) and (orientation : portrait) {
 
   h1 {
-    font-size: 100px;
+    font-size: 90px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
-    margin-left: 8vw;
     margin-top: 45vh;
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 35px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -345,47 +367,61 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
+    width: 100vw;
+    height: 100%;
+    background-color: #ededf4;
     position: relative;
     float: left;
-    background-image: url(immagini/open_1920.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
 
-  .open p {
-    line-height: 25px;
+  .imgopen img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .textopen {
+    position: relative;
+    width: 84vw;
     margin-left: 8vw;
-    margin-top: 5vw;
+  }
+
+  .textopen p, .textopen a {
+    position: relative;
+    line-height: 25px;
+    margin-top: 5vh;
   }
 
   .open a:link, a:visited {
-    margin-left: 8vw;
+    text-decoration: none;
   }
 
   .storia {
     position: relative;
     float: left;
+    margin-top: 25vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
-    background-color: transparent;
   }
 
   .coming {
     position: relative;
     float: left;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
   }
 
   .imgstoria {
@@ -393,11 +429,9 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
-    margin-top: 2vw;
-    margin-left: 8vw;
+    height: 25vw;
     background-image: url(immagini/screen.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
@@ -406,58 +440,67 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
-    margin-top: 4vw;
+    height: 25vw;
+    display: block;
     margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
   }
 
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    display: none;
+  }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
-    margin-top: 10vw;
     width: 38vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
+    margin-left: 8vw;
   }
 
   .textstoria img {
-    height: 8vw;
-    margin-bottom: 1vw;
+    display: block;
+    height: 6vw;
   }
 
-  .nascondi {
-    display: none;
+.nascondi {
+display: none;
+}
+
+  .textstoria a {
+    text-decoration: none;
   }
 
   .textcoming {
     position: relative;
-    float: left;
-    margin-left: 8vw;
-    margin-top: 15vw;
-    width: 38vw;
-  }
-
-  .textcoming p {
-    position: relative;
-    float: left;
-    width: 38vw;
     line-height: 25px;
-    clear: both;
+    float: left;
+    width: 38vw;
   }
 
-  .textcoming img {
-    height: 8vw;
-    margin-bottom: 1vw;
-  }
+
+.escla {
+display: block;
+height: 10vw;
+}
 
   .textcoming a:link, a:visited {
     position: relative;
@@ -476,22 +519,20 @@
 @media  screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
 
   h1 {
-    font-size: 100px;
+    font-size: 90px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
-    margin-left: 8vw;
     margin-top: 45vh;
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 35px;
     font-family: rubrik-new;
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -499,50 +540,61 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
+    width: 100vw;
+    height: 100%;
+    background-color: #ededf4;
     position: relative;
     float: left;
-    background-image: url(immagini/open_1920.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
 
-  .open p {
-    line-height: 25px;
+  .imgopen img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .textopen {
+    position: relative;
+    width: 84vw;
     margin-left: 8vw;
+  }
+
+  .textopen p, .textopen a {
+    position: relative;
+    line-height: 25px;
     margin-top: 5vh;
   }
 
-  .open a {
+  .open a:link, a:visited {
     text-decoration: none;
-    margin-left: 8vw;
-    margin-bottom: 30vw
   }
 
   .storia {
     position: relative;
     float: left;
+    margin-top: 25vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
-    background-color: transparent;
-    margin-top: 8vw;
   }
 
   .coming {
     position: relative;
     float: left;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
   }
 
   .imgstoria {
@@ -550,11 +602,9 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 8vw;
-    margin-left: 8vw;
+    height: 25vw;
     background-image: url(immagini/screen.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
@@ -563,58 +613,67 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 30vw;
-    margin-top: 8vw;
+    height: 25vw;
+    display: block;
     margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
   }
 
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
+  }
+
+  .imgcoming2 {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 38vw;
+    height: 50vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    display: none;
+  }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
-    margin-top: 10vw;
     width: 38vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
+    margin-left: 8vw;
   }
 
   .textstoria img {
+    display: block;
     height: 6vw;
-    margin-bottom: 1vw;
   }
 
-  .nascondi {
-    display: none;
+.nascondi {
+display: none;
+}
+
+  .textstoria a {
+    text-decoration: none;
   }
 
   .textcoming {
     position: relative;
-    float: left;
-    margin-left: 8vw;
-    margin-top: 15vw;
-    width: 38vw;
-  }
-
-  .textcoming p {
-    position: relative;
-    float: left;
-    width: 38vw;
     line-height: 25px;
-    clear: both;
+    float: left;
+    width: 38vw;
   }
 
-  .textcoming img {
-    height: 6vw;
-    margin-bottom: 1vw;
-  }
+
+.escla {
+display: block;
+height: 10vw;
+}
 
   .textcoming a:link, a:visited {
     position: relative;
@@ -638,7 +697,6 @@
     color: #e53b1a;
     margin: 0;
     margin-top: 45vh;
-    margin-left: 8vw;
   }
 
   h3 {
@@ -647,7 +705,6 @@
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -655,44 +712,60 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
+    width: 100vw;
+    height: 100%;
+    background-color: #ededf4;
     position: relative;
     float: left;
-    background-image: url(immagini/open_tablet.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
 
-  .open p {
-    line-height: 25px;
+  .imgopen img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .textopen {
+    position: relative;
+    width: 84vw;
     margin-left: 8vw;
+  }
+
+  .textopen p, .textopen a {
+    position: relative;
+    line-height: 25px;
     margin-top: 5vh;
   }
 
   .open a:link, a:visited {
     text-decoration: none;
-    margin-left: 8vw;
   }
 
   .storia {
     position: relative;
     float: left;
-    width: 100vw;
-    margin-top: 25vw;
+    margin-top: 33vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
   }
 
   .coming {
     position: relative;
     float: left;
-    width: 100vw;
     margin-top: 25vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
     display: flex;
   }
 
@@ -702,7 +775,6 @@
     background-color: white;
     width: 38vw;
     height: 38vw;
-    margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: top;
     background-size: cover;
@@ -712,15 +784,22 @@
     position: relative;
     float: left;
     background-color: white;
+    margin-left: 8vw;
     width: 38vw;
     height: 38vw;
-    margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
     display: block;
+  }
+
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
   .imgcoming2 {
@@ -728,41 +807,27 @@
     float: left;
     background-color: white;
     width: 38vw;
-    height: 38vw;
+    height: 50vw;
     margin-bottom: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
+    margin-top: 8vw;
     display: none;
   }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
     width: 38vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
-    font-size: 15px;
+    margin-left: 8vw;
   }
 
   .textstoria img {
     display: block;
     height: 10vw;
-    margin:0;
-    margin-bottom: 3vw;
   }
 
 .nascondi {
-  position: relative;
-  float: left;
-  margin-left: 8vw;
-  display: none;
-  height: 15vw;
+display: none;
 }
 
   .textstoria a {
@@ -772,21 +837,15 @@
   .textcoming {
     position: relative;
     float: left;
-    margin-left: 8vw;
     width: 38vw;
-  }
-
-  .textcoming p {
     line-height: 25px;
-    font-size: 15px;
   }
 
-  .textcoming img {
-    display: block;
-    height: 10vw;
-    margin:0;
-    margin-bottom: 3vw;
-  }
+
+.escla {
+display: block;
+height: 10vw;
+}
 
   .textcoming a:link, a:visited {
     position: relative;
@@ -803,165 +862,169 @@
 
 @media  screen and (min-width: 320px) and (max-width: 480px) {
 
-  h1 {
-    font-size: 90px;
-    font-family: rubrik-new;
-    font-weight: 500;
-    color: #e53b1a;
-    margin: 0;
-    margin-left: 8vw;
-    margin-top: 45vh;
-  }
 
-  h3 {
-    font-size: 35px;
-    font-family: rubrik-new;
-    font-weight: 500;
-    color: #212529;
-    margin: 0;
-    margin-left: 8vw;
-  }
+    h1 {
+      font-size: 90px;
+      font-family: rubrik-new;
+      font-weight: 500;
+      color: #e53b1a;
+      margin: 0;
+      margin-top: 45vh;
+    }
 
-  h4 {
-    font-size: 30px;
-    font-family: rubrik-new;
-    font-weight: 400;
-    color: #212529;
-    margin: 20px 0 30px 0;
-  }
+    h3 {
+      font-size: 35px;
+      font-family: rubrik-new;
+      font-weight: 500;
+      color: #212529;
+      margin: 0;
+    }
 
-  .open {
+    h4 {
+      font-size: 30px;
+      font-family: rubrik-new;
+      font-weight: 400;
+      color: #212529;
+      margin: 20px 0 20px 0;
+    }
+
+    .open {
+      width: 100vw;
+      height: 100%;
+      background-color: #ededf4;
+      position: relative;
+      float: left;
+      margin: 0;
+    }
+
+    .imgopen img {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+
+    .textopen {
+      position: relative;
+      width: 84vw;
+      margin-left: 8vw;
+    }
+
+    .textopen p, .textopen a {
+      position: relative;
+      line-height: 25px;
+      margin-top: 5vh;
+    }
+
+    .open a:link, a:visited {
+      text-decoration: none;
+    }
+
+    .storia {
+      position: relative;
+      float: left;
+      margin-top: 33vw;
+      width: 84vw;
+      margin-left: 8vw;
+    }
+
+    .coming {
+      position: relative;
+      float: left;
+      margin-top: 25vw;
+      margin-bottom: 8vw;
+      width: 84vw;
+      margin-left: 8vw;
+    }
+
+    .imgstoria {
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 84vw;
+      height: 50vw;
+      margin-top: 8vw;
+      background-image: url(immagini/screen.png);
+      background-position: top;
+      background-size: cover;
+    }
+
+    .imgcoming {
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 84vw;
+      height: 50vw;
+      margin-top: 8vw;
+      display: none;
+    }
+
+    .imgcoming img, .imgcoming2 img {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+      -webkit-filter: grayscale();
+      filter: grayscale();
+    }
+
+    .imgcoming2 {
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 84vw;
+      height: 50vw;
+      margin-bottom: 8vw;
+      margin-top: 8vw;
+    }
+
+    .textstoria {
+      position: relative;
+      float: left;
+      width: 84vw;
+      line-height: 25px;
+    }
+
+    .textstoria img {
+      display: none;
+      height: 15vw;
+    }
+
+  .nascondi {
     position: relative;
     float: left;
-    background-image: url(immagini/open_tel.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .open p {
-    line-height: 25px;
-    margin-left: 8vw;
-    margin-top: 5vh;
-  }
-
-  .open a:link, a:visited {
-    text-decoration: none;
-    margin-left: 8vw;
-  }
-
-  .storia {
-    position: relative;
-    float: left;
-    width: 100vw;
-    margin-top: 25vw;
-  }
-
-  .coming {
-    position: relative;
-    float: left;
-    width: 100vw;
-    margin-top: 25vw;
-    margin-bottom: 25vw;
-  }
-
-  .imgstoria {
-    position: relative;
-    float: left;
-    background-color: white;
-    width: 84vw;
-    height: 50vw;
-    margin-top: 8vw;
-    margin-left: 8vw;
-    background-image: url(immagini/screen.png);
-    background-position: top;
-    background-size: cover;
-  }
-
-  .imgcoming {
-    position: relative;
-    float: left;
-    background-color: white;
-    width: 84vw;
-    height: 50vw;
-    margin-top: 8vw;
-    margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
-    display: none;
-  }
-
-  .imgcoming2 {
-    position: relative;
-    float: left;
-    background-color: white;
-    width: 84vw;
-    height: 50vw;
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
-  }
-
-  .textstoria {
-    position: relative;
-    float: left;
-    margin-left: 8vw;
-    width: 84vw;
-  }
-
-  .textstoria p {
-    line-height: 25px;
-  }
-
-  .textstoria img {
-    display: none;
+    display: block;
     height: 15vw;
     margin-bottom: 3vw;
   }
 
-.nascondi {
-  position: relative;
-  float: left;
-  margin-left: 8vw;
-  display: block;
+    .textstoria a {
+      text-decoration: none;
+    }
+
+    .textcoming {
+      position: relative;
+      float: left;
+      width: 84vw;
+      line-height: 25px;
+    }
+
+
+.escla {
   height: 15vw;
-  margin-bottom: 3vw;
 }
 
-  .textstoria a {
-    text-decoration: none;
-  }
-
-  .textcoming {
-    position: relative;
-    float: left;
-    margin-left: 8vw;
-    width: 84vw;
-  }
-
-  .textcoming p {
-    line-height: 25px;
-  }
-
-  .textcoming img {
-    height: 15vw;
-    margin-bottom: 3vw;
-  }
-
-  .textcoming a:link, a:visited {
-    position: relative;
-    float: left;
-    clear: both;
-  }
+    .textcoming a:link, a:visited {
+      position: relative;
+      float: left;
+      clear: both;
+    }
 
 }
 
@@ -974,7 +1037,6 @@
     font-weight: 500;
     color: #e53b1a;
     margin: 0;
-    margin-left: 8vw;
     margin-top: 45vh;
   }
 
@@ -984,7 +1046,6 @@
     font-weight: 500;
     color: #212529;
     margin: 0;
-    margin-left: 8vw;
   }
 
   h4 {
@@ -992,44 +1053,59 @@
     font-family: rubrik-new;
     font-weight: 400;
     color: #212529;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
   }
 
   .open {
+    width: 100vw;
+    height: 100%;
+    background-color: #ededf4;
     position: relative;
     float: left;
-    background-image: url(immagini/open_tel.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
   }
 
-  .open p {
-    line-height: 25px;
+  .imgopen img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .textopen {
+    position: relative;
+    width: 84vw;
     margin-left: 8vw;
+  }
+
+  .textopen p, .textopen a {
+    position: relative;
+    line-height: 25px;
     margin-top: 5vh;
   }
 
   .open a:link, a:visited {
     text-decoration: none;
-    margin-left: 8vw;
   }
 
   .storia {
     position: relative;
     float: left;
-    width: 100vw;
-    margin-top: 25vw;
+    margin-top: 33vw;
+    width: 84vw;
+    margin-left: 8vw;
   }
 
   .coming {
     position: relative;
     float: left;
-    width: 100vw;
     margin-top: 25vw;
-    margin-bottom: 25vw;
+    margin-bottom: 8vw;
+    width: 84vw;
+    margin-left: 8vw;
   }
 
   .imgstoria {
@@ -1039,7 +1115,6 @@
     width: 84vw;
     height: 50vw;
     margin-top: 8vw;
-    margin-left: 8vw;
     background-image: url(immagini/screen.png);
     background-position: top;
     background-size: cover;
@@ -1052,13 +1127,19 @@
     width: 84vw;
     height: 50vw;
     margin-top: 8vw;
-    margin-left: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
     display: none;
+  }
+
+  .imgcoming img, .imgcoming2 img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    -webkit-filter: grayscale();
+    filter: grayscale();
   }
 
   .imgcoming2 {
@@ -1069,34 +1150,23 @@
     height: 50vw;
     margin-bottom: 8vw;
     margin-top: 8vw;
-    background-image: url(immagini/method.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
   }
 
   .textstoria {
     position: relative;
     float: left;
-    margin-left: 8vw;
     width: 84vw;
-  }
-
-  .textstoria p {
     line-height: 25px;
   }
 
   .textstoria img {
     display: none;
     height: 15vw;
-    margin-bottom: 3vw;
   }
 
 .nascondi {
   position: relative;
   float: left;
-  margin-left: 8vw;
   display: block;
   height: 15vw;
   margin-bottom: 3vw;
@@ -1109,17 +1179,13 @@
   .textcoming {
     position: relative;
     float: left;
-    margin-left: 8vw;
     width: 84vw;
-  }
-
-  .textcoming p {
     line-height: 25px;
   }
 
-  .textcoming img {
+
+  .escla {
     height: 15vw;
-    margin-bottom: 3vw;
   }
 
   .textcoming a:link, a:visited {
